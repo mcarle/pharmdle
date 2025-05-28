@@ -1,14 +1,14 @@
 import { Paper, Stack, TextField } from '@mui/material';
 import React from 'react';
-import { Guess } from './hooks/useDrugdle';
+import { Guess } from './hooks/usePharmdle';
 
-export interface DrugdleRowProps {
+export interface PharmdleRowProps {
   numCols: number;
   existingGuess?: Guess;
   guessInProgress?: string;
 }
 
-const Row = ({ numCols, existingGuess, guessInProgress }: DrugdleRowProps) => {
+const Row = ({ numCols, existingGuess, guessInProgress }: PharmdleRowProps) => {
   if (existingGuess) {
     return (
       <div className="row past">

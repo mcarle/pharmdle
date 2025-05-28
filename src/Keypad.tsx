@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { GuessKey, KeyColorMap } from './hooks/useDrugdle';
+import { GuessKey, KeyColorMap } from './hooks/usePharmdle';
 
 interface KeypadProps {
   usedKeys: KeyColorMap;

@@ -1,16 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import {
-  AppBar,
-  Box,
-  Grid,
-  IconButton,
-  Stack,
-  TextField,
-  Toolbar,
-  Typography,
-} from '@mui/material';
-import Drugdle from './Drugdle';
+import { AppBar, Toolbar, Typography } from '@mui/material';
+import Pharmdle from './Pharmdle';
 
 function App() {
   return (
@@ -18,11 +9,11 @@ function App() {
       <AppBar position="static" style={{ marginBottom: '25px' }}>
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit" component="div">
-            Pharmdle
+            Pharmdle (Beta)
           </Typography>
         </Toolbar>
       </AppBar>
-      <Drugdle numRows={8} />
+      <Pharmdle numRows={8} />
     </div>
   );
 }
