@@ -10,9 +10,10 @@ export interface PharmdleRowProps {
 
 const Row = ({ numCols, existingGuess, guessInProgress }: PharmdleRowProps) => {
   if (existingGuess) {
+    // this row is already locked
     return (
       <div className="row past">
-        {existingGuess.map((l, i) => (
+        {existingGuess.formatted.map((l, i) => (
           <div key={i} className={l.color}>
             {l.key}
           </div>

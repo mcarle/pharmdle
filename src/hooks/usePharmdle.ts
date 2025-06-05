@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const keys = [
+export const letters = [
   'a',
   'b',
   'c',
@@ -57,98 +57,84 @@ export type Letter =
   | 'y'
   | 'z';
 
+export type Color = 'green' | 'yellow' | 'grey';
+
+export interface Guess {
+  word: string;
+  formatted: GuessKey[];
+}
+
 export interface GuessKey {
-  key:
-    | 'a'
-    | 'b'
-    | 'c'
-    | 'd'
-    | 'e'
-    | 'f'
-    | 'g'
-    | 'h'
-    | 'i'
-    | 'j'
-    | 'k'
-    | 'l'
-    | 'm'
-    | 'n'
-    | 'o'
-    | 'p'
-    | 'q'
-    | 'r'
-    | 's'
-    | 't'
-    | 'u'
-    | 'v'
-    | 'w'
-    | 'x'
-    | 'y'
-    | 'z';
-  color: 'green' | 'yellow' | 'grey';
+  key: Letter;
+  color: Color;
 }
 
 export interface KeyColorMap {
-  a?: string;
-  b?: string;
-  c?: string;
-  d?: string;
-  e?: string;
-  f?: string;
-  g?: string;
-  h?: string;
-  i?: string;
-  j?: string;
-  k?: string;
-  l?: string;
-  m?: string;
-  n?: string;
-  o?: string;
-  p?: string;
-  q?: string;
-  r?: string;
-  s?: string;
-  t?: string;
-  u?: string;
-  v?: string;
-  w?: string;
-  x?: string;
-  y?: string;
-  z?: string;
+  a?: Color;
+  b?: Color;
+  c?: Color;
+  d?: Color;
+  e?: Color;
+  f?: Color;
+  g?: Color;
+  h?: Color;
+  i?: Color;
+  j?: Color;
+  k?: Color;
+  l?: Color;
+  m?: Color;
+  n?: Color;
+  o?: Color;
+  p?: Color;
+  q?: Color;
+  r?: Color;
+  s?: Color;
+  t?: Color;
+  u?: Color;
+  v?: Color;
+  w?: Color;
+  x?: Color;
+  y?: Color;
+  z?: Color;
 }
 
-export type Guess = GuessKey[];
-
-const useWordle = (numTurns: number) => {
-  const [turn, setTurn] = useState(0);
+const usePharmdle = (numTurns: number) => {
   const [currentGuess, setCurrentGuess] = useState('');
-  const [guesses, setGuesses] = useState([...Array(6)]); // each guess is an array
-  const [history, setHistory] = useState<string[]>([]); // each guess is a string
+  const [guesses, setGuesses] = useState<Guess[]>([]);
   const [isCorrect, setIsCorrect] = useState(false);
-  const [usedKeys, setUsedKeys] = useState<KeyColorMap>({}); // {a: 'grey', b: 'green', c: 'yellow'} etc
-  const [solution, setSolution] = useState<string>(''); // the solution word
+  const [usedKeys, setUsedKeys] = useState<KeyColorMap>({});
+  const [solution, setSolution] = useState<string>('');
 
   // format a guess into an array of letter objects
   // e.g. [{key: 'a', color: 'yellow'}]
-  const formatGuess = () => {
+  const formatGuess = (guess: string): Guess => {
     let solutionArray: string[] = solution.split('');
-    let formattedGuess: Guess = currentGuess.split('').map((l) => {
-      return { key: l as Letter, color: 'grey' };
-    });
+    let formattedGuess: Guess = {
+      // initialize letters with grey color
+      formatted: currentGuess.split('').map((l) => {
+        return { key: l as Letter, color: 'grey' };
+      }),
+      word: guess,
+    };
 
     // find any green letters
-    formattedGuess.forEach((l, i) => {
-      if (solution[i] === l.key) {
-        formattedGuess[i].color = 'green';
-        solutionArray[i] = '';
+    formattedGuess.formatted.forEach((keyColorMap, indx) => {
+      if (solution[indx] === keyColorMap.key) {
+        formattedGuess.formatted[indx].color = 'green';
+        // erase letter so it's not matched again
+        solutionArray[indx] = '';
       }
     });
 
     // find any yellow letters
-    formattedGuess.forEach((l, i) => {
-      if (solutionArray.includes(l.key) && l.color !== 'green') {
-        formattedGuess[i].color = 'yellow';
-        solutionArray[solutionArray.indexOf(l.key)] = '';
+    formattedGuess.formatted.forEach((keyColorMap, indx) => {
+      // skip any keys we've already marked green.
+      if (
+        solutionArray.includes(keyColorMap.key) &&
+        keyColorMap.color !== 'green'
+      ) {
+        formattedGuess.formatted[indx].color = 'yellow';
+        solutionArray[solutionArray.indexOf(keyColorMap.key)] = '';
       }
     });
 
@@ -159,41 +145,38 @@ const useWordle = (numTurns: number) => {
   // update the isCorrect state if the guess is correct
   // add one to the turn state
   const addNewGuess = (formattedGuess: Guess) => {
+    console.log(`adding new guess: ${formattedGuess.word}`);
     if (currentGuess === solution) {
       setIsCorrect(true);
     }
+
     setGuesses((prevGuesses) => {
-      let newGuesses = [...prevGuesses];
-      newGuesses[turn] = formattedGuess;
+      const newGuesses = prevGuesses.concat(formattedGuess);
       return newGuesses;
     });
-    setHistory((prevHistory) => {
-      return [...prevHistory, currentGuess];
-    });
-    setTurn((prevTurn) => {
-      return prevTurn + 1;
-    });
-    setUsedKeys((prevUsedKeys: KeyColorMap) => {
-      formattedGuess.forEach((l) => {
-        const currentColor = prevUsedKeys[l.key];
 
-        if (l.color === 'green') {
-          prevUsedKeys[l.key] = 'green';
+    setUsedKeys((prevUsedKeys: KeyColorMap) => {
+      formattedGuess.formatted.forEach((guessKeyColor) => {
+        const currentColor = prevUsedKeys[guessKeyColor.key];
+
+        if (guessKeyColor.color === 'green') {
+          prevUsedKeys[guessKeyColor.key] = 'green';
           return;
         }
-        if (l.color === 'yellow' && currentColor !== 'green') {
-          prevUsedKeys[l.key] = 'yellow';
-          return;
-        }
-        if (l.color === 'grey' && currentColor !== ('green' || 'yellow')) {
-          prevUsedKeys[l.key] = 'grey';
+        if (guessKeyColor.color === 'yellow' && currentColor !== 'green') {
+          prevUsedKeys[guessKeyColor.key] = 'yellow';
           return;
         }
       });
 
       return prevUsedKeys;
     });
+
     setCurrentGuess('');
+  };
+
+  const currentTurn = () => {
+    return guesses.length;
   };
 
   // handle keyup event & track current guess
@@ -202,12 +185,12 @@ const useWordle = (numTurns: number) => {
     console.log(`key pressed: ${key}`);
     if (key === 'Enter') {
       // only add guess if turn is less than 5
-      if (turn > numTurns) {
+      if (currentTurn() > numTurns) {
         console.log('you used all your guesses!');
         return;
       }
       // do not allow duplicate words
-      if (history.includes(currentGuess)) {
+      if (guesses.some((g) => g.word === currentGuess)) {
         console.log('you already tried that word.');
         return;
       }
@@ -215,7 +198,7 @@ const useWordle = (numTurns: number) => {
         console.log(`word must be ${solution.length} chars.`);
         return;
       }
-      const formatted = formatGuess();
+      const formatted = formatGuess(currentGuess);
       addNewGuess(formatted);
     }
     if (key === 'Backspace') {
@@ -230,7 +213,6 @@ const useWordle = (numTurns: number) => {
   };
 
   return {
-    turn,
     currentGuess,
     guesses,
     isCorrect,
@@ -241,4 +223,4 @@ const useWordle = (numTurns: number) => {
   };
 };
 
-export default useWordle;
+export default usePharmdle;

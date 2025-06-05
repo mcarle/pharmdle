@@ -4,6 +4,7 @@ import { AppBar, Toolbar, Typography } from '@mui/material';
 import Pharmdle from './Pharmdle';
 
 function App() {
+  console.log('hi');
   return (
     <div>
       <AppBar position="static" style={{ marginBottom: '25px' }}>

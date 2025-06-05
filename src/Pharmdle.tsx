@@ -11,7 +11,6 @@ export interface PharmdleGridProps {
 
 const Pharmdle = ({ numRows }: PharmdleGridProps) => {
   const {
-    turn,
     currentGuess,
     guesses,
     isCorrect,
@@ -29,6 +28,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
         'https://5bpsqzakript5dai5nolgdvv6e0tkmbr.lambda-url.us-east-1.on.aws/'
       );
       const drug = await response.text();
+      console.log('fetched drug:', drug);
       setSolution(drug.padEnd(14, '*'));
     };
 
@@ -38,41 +38,16 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
   useEffect(() => {
     window.addEventListener('keyup', handleKeyup);
 
-    if (isCorrect) {
-      // setTimeout(() => setShowModal(true), 2000);
-      // window.removeEventListener('keyup', handleKeyup);
-      console.log('you guessed it!');
-    }
-    if (turn > 5) {
-      // setTimeout(() => setShowModal(true), 2000);
-      // window.removeEventListener('keyup', handleKeyup);
-      console.log('you suck...LOSER!');
-    }
-
     return () => window.removeEventListener('keyup', handleKeyup);
-  }, [handleKeyup, isCorrect, turn]);
+  }, [handleKeyup]);
 
   console.log(
-    `turn: ${turn}, currentGuess: ${currentGuess}, guesses: ${guesses}, usedKeys: ${usedKeys}, isCorrect: ${isCorrect}`
+    `turn: ${guesses.length}, currentGuess: ${currentGuess}, guesses: ${guesses}, usedKeys: ${usedKeys}, isCorrect: ${isCorrect}`
   );
-
-  console.log('solution:', solution);
 
   if (!solution) {
     return <div>Loading...</div>;
   }
-
-  // const modalStyle = {
-  //   position: 'absolute',
-  //   top: '50%',
-  //   left: '50%',
-  //   transform: 'translate(-50%, -50%)',
-  //   width: 400,
-  //   bgcolor: 'background.paper',
-  //   border: '2px solid #000',
-  //   boxShadow: 24,
-  //   p: 4,
-  // };
 
   const shouldShowLostGameModal = () => {
     return guesses.length === 8 && !isCorrect;
@@ -86,7 +61,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
             key={index}
             numCols={14}
             existingGuess={guesses[index]}
-            guessInProgress={index === turn ? currentGuess : ''}
+            guessInProgress={index === guesses.length ? currentGuess : ''}
           />
         ))}
       </Stack>
@@ -96,21 +71,6 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
         solution={solution}
         onClose={() => setModalCleared(true)}
       />
-      {/* <Button onClick={() => setShowModal(true)}>Open modal</Button>
-      <Modal
-        open={showModal}
-        onClose={() => setShowModal(false)}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description">
-        <Box sx={modalStyle}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography>
-        </Box>
-      </Modal> */}
     </div>
   );
 };
