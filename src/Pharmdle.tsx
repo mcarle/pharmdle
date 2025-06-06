@@ -4,6 +4,7 @@ import { Box, Button, Modal, Stack, Typography } from '@mui/material';
 import usePharmdle from './hooks/usePharmdle';
 import Keypad from './Keypad';
 import LostGameModal from './components/LostGameModal';
+import WonGameModal from './components/WonGameModal';
 
 export interface PharmdleGridProps {
   numRows: number;
@@ -41,13 +42,17 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
     return () => window.removeEventListener('keyup', handleKeyup);
   }, [handleKeyup]);
 
-  console.log(
-    `turn: ${guesses.length}, currentGuess: ${currentGuess}, guesses: ${guesses}, usedKeys: ${usedKeys}, isCorrect: ${isCorrect}`
-  );
+  // console.log(
+  //   `turn: ${guesses.length}, currentGuess: ${currentGuess}, guesses: ${guesses}, usedKeys: ${usedKeys}, isCorrect: ${isCorrect}`
+  // );
 
   if (!solution) {
     return <div>Loading...</div>;
   }
+
+  const shouldShowWonGameModal = () => {
+    return isCorrect && guesses.length <= 8 && !modalCleared;
+  };
 
   const shouldShowLostGameModal = () => {
     return guesses.length === 8 && !isCorrect;
@@ -70,6 +75,12 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
         open={shouldShowLostGameModal() && !modalCleared}
         solution={solution}
         onClose={() => setModalCleared(true)}
+      />
+      <WonGameModal
+        open={shouldShowWonGameModal() && !modalCleared}
+        solution={solution}
+        onClose={() => setModalCleared(true)}
+        numGuesses={guesses.length}
       />
     </div>
   );

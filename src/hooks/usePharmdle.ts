@@ -182,7 +182,10 @@ const usePharmdle = (numTurns: number) => {
   // handle keyup event & track current guess
   // if user presses enter, add the new guess
   const handleKeyup = ({ key }: { key: string }) => {
-    console.log(`key pressed: ${key}`);
+    if (isCorrect || currentTurn() >= numTurns) {
+      return;
+    }
+
     if (key === 'Enter') {
       // only add guess if turn is less than 5
       if (currentTurn() > numTurns) {
