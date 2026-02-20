@@ -60,29 +60,47 @@ h1 {
   animation: bounce 0.2s ease-in-out forwards;
 }
 .keypad {
-  max-width: 500px;
+  max-width: 520px;
   margin: 20px auto;
 }
-.keypad > div {
-  margin: 5px;
-  width: 40px;
+.keypad-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+.keypad-key {
+  margin: 0 3px;
+  width: 36px;
   height: 50px;
   background: #eee;
-  display: inline-block;
+  border: none;
   border-radius: 6px;
   line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+  cursor: pointer;
+  user-select: none;
 }
-.keypad > div.green {
+.keypad-key:active {
+  transform: scale(0.95);
+}
+.keypad-key.wide {
+  width: 60px;
+  font-size: 0.7em;
+}
+.keypad-key.green {
   background: #5ac85a;
   color: #fff;
   transition: all 0.3s ease-in;
 }
-.keypad > div.yellow {
+.keypad-key.yellow {
   background: #e2cc68;
   color: #fff;
   transition: all 0.3s ease-in;
 }
-.keypad > div.grey {
+.keypad-key.grey {
   background: #a1a1a1;
   color: #fff;
   transition: all 0.3s ease-in;

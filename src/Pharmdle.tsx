@@ -70,7 +70,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
           />
         ))}
       </Stack>
-      <Keypad usedKeys={usedKeys} />
+      <Keypad usedKeys={usedKeys} onKeyClick={(key) => handleKeyup({ key })} />
       <LostGameModal
         open={shouldShowLostGameModal() && !modalCleared}
         solution={solution}
