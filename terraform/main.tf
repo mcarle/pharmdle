@@ -31,17 +31,19 @@ resource "aws_s3_bucket_public_access_block" "pharmdle" {
 
 # --- S3 objects ---
 
-resource "aws_s3_object" "drug_names" {
-  bucket = aws_s3_bucket.pharmdle.id
-  key    = "drug_names"
-  source = var.drug_names_file
-  etag   = filemd5(var.drug_names_file)
+resource "aws_s3_object" "drug_data" {
+  bucket       = aws_s3_bucket.pharmdle.id
+  key          = "drug_data"
+  source       = var.drug_data_file
+  etag         = filemd5(var.drug_data_file)
+  content_type = "application/json"
 }
 
 resource "aws_s3_object" "daily_drug" {
-  bucket  = aws_s3_bucket.pharmdle.id
-  key     = "daily_drug"
-  content = var.daily_drug_default
+  bucket       = aws_s3_bucket.pharmdle.id
+  key          = "daily_drug"
+  content      = jsonencode({ name = var.daily_drug_default })
+  content_type = "application/json"
 
   lifecycle {
     ignore_changes = [content, etag]

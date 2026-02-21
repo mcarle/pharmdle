@@ -7,26 +7,27 @@ export const handler = async (event) => {
     const response = await client.send(
       new GetObjectCommand({
         Bucket: process.env.BUCKET_NAME,
-        Key: process.env.DRUG_NAMES_KEY,
+        Key: process.env.DRUG_DATA_KEY,
       })
     );
 
     const str = await response.Body.transformToString();
-    const drugs = str.split('\n');
-    const indx = Math.floor(Math.random() * drugs.length - 1);
+    const drugs = JSON.parse(str);
+    const indx = Math.floor(Math.random() * drugs.length);
     const newDrug = drugs[indx];
-    console.log(`new drug: ${newDrug}, writing to S3`);
+    console.log(`new drug: ${newDrug.name}, writing to S3`);
 
     // write new value to S3
     const writeResponse = await client.send(
       new PutObjectCommand({
         Bucket: process.env.BUCKET_NAME,
         Key: process.env.DAILY_DRUG_KEY,
-        Body: newDrug
+        Body: JSON.stringify(newDrug),
+        ContentType: 'application/json',
       })
     );
 
-    console.log(writeResponse); 
+    console.log(writeResponse);
     if (writeResponse.$metadata.httpStatusCode != 200) {
       throw new Error('Error writing to S3');
     }
