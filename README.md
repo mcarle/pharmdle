@@ -114,6 +114,22 @@ npm run build
 
 Outputs an optimised production build to the `build/` directory.
 
+## Deployment
+
+The frontend is continuously deployed via **AWS Amplify**. Pushing to the `main` branch automatically triggers a build and deploy.
+
+### Checking Deployment Status
+
+```bash
+# List recent deployments
+aws amplify list-jobs --app-id d1zf2mt5b84s5d --branch-name main --max-items 5
+
+# Get details for a specific job
+aws amplify get-job --app-id d1zf2mt5b84s5d --branch-name main --job-id <JOB_ID>
+```
+
+You can also check the [Amplify console](https://us-east-1.console.aws.amazon.com/amplify/apps/d1zf2mt5b84s5d) directly.
+
 ## Infrastructure (Terraform)
 
 Backend infrastructure is managed with Terraform in the `terraform/` directory.

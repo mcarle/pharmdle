@@ -65,8 +65,8 @@ export interface Guess {
 }
 
 export interface GuessKey {
-  key: Letter;
-  color: Color;
+  key: Letter | '';
+  color: Color | '';
 }
 
 export interface KeyColorMap {
@@ -139,6 +139,14 @@ const usePharmdle = (numTurns: number, validDrugs: Set<string>) => {
       }
     });
 
+    // pad to 14 columns: positions beyond the solution are green (correctly blank)
+    for (let i = guess.length; i < 14; i++) {
+      formattedGuess.formatted.push({
+        key: '',
+        color: i >= solution.length ? 'green' : '',
+      });
+    }
+
     return formattedGuess;
   };
 
@@ -158,14 +166,16 @@ const usePharmdle = (numTurns: number, validDrugs: Set<string>) => {
 
     setUsedKeys((prevUsedKeys: KeyColorMap) => {
       formattedGuess.formatted.forEach((guessKeyColor) => {
-        const currentColor = prevUsedKeys[guessKeyColor.key];
+        if (!guessKeyColor.key) return; // skip blank padding cells
+        const key = guessKeyColor.key as Letter;
+        const currentColor = prevUsedKeys[key];
 
         if (guessKeyColor.color === 'green') {
-          prevUsedKeys[guessKeyColor.key] = 'green';
+          prevUsedKeys[key] = 'green';
           return;
         }
         if (guessKeyColor.color === 'yellow' && currentColor !== 'green') {
-          prevUsedKeys[guessKeyColor.key] = 'yellow';
+          prevUsedKeys[key] = 'yellow';
           return;
         }
       });

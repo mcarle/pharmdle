@@ -10,17 +10,13 @@ export interface PharmdleRowProps {
 
 const Row = ({ numCols, existingGuess, guessInProgress }: PharmdleRowProps) => {
   if (existingGuess) {
-    // this row is already locked
-    const emptyCount = numCols - existingGuess.formatted.length;
+    // this row is already locked — formatted is always 14 entries
     return (
       <div className="row past">
         {existingGuess.formatted.map((l, i) => (
-          <div key={i} className={l.color}>
+          <div key={i} className={l.color || undefined}>
             {l.key}
           </div>
-        ))}
-        {emptyCount > 0 && [...Array(emptyCount)].map((_, i) => (
-          <div key={`empty-${i}`}></div>
         ))}
       </div>
     );
