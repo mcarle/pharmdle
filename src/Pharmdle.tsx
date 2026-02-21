@@ -6,6 +6,7 @@ import Keypad from './Keypad';
 import LostGameModal from './components/LostGameModal';
 import WonGameModal from './components/WonGameModal';
 import HintsDrawer from './components/HintsDrawer';
+import validDrugs from './data/validDrugs';
 
 export interface PharmdleGridProps {
   numRows: number;
@@ -20,7 +21,8 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
     handleKeyup,
     setSolution,
     solution,
-  } = usePharmdle(8);
+    message,
+  } = usePharmdle(8, validDrugs);
 
   const [modalCleared, setModalCleared] = useState(false);
   const [hints, setHints] = useState<Record<string, string[]> | null>(null);
@@ -33,7 +35,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
       );
       const data = await response.json();
       console.log('fetched drug:', data.name);
-      setSolution(data.name.padEnd(14, '*'));
+      setSolution(data.name.toLowerCase());
       const { name, ...hintData } = data;
       setHints(hintData);
     };
@@ -65,6 +67,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
 
   return (
     <div>
+      {message && <div className="message-toast">{message}</div>}
       <Stack spacing={2}>
         {Array.from({ length: numRows }, (_, index) => (
           <PharmdleRow

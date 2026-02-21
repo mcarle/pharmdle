@@ -272,6 +272,23 @@ body {
   }
 }
 
+/* message toast */
+.message-toast {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a1b;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+  z-index: 20;
+  animation: fade-in-out 2s ease forwards;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
 /* keyframe animations */
 @keyframes flip {
   0% {
@@ -295,6 +312,21 @@ body {
     border-color: var(--border-color);
     color: #fff;
   }
+}
+
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
 }
 
 @keyframes bounce {

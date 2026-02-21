@@ -98,12 +98,13 @@ export interface KeyColorMap {
   z?: Color;
 }
 
-const usePharmdle = (numTurns: number) => {
+const usePharmdle = (numTurns: number, validDrugs: Set<string>) => {
   const [currentGuess, setCurrentGuess] = useState('');
   const [guesses, setGuesses] = useState<Guess[]>([]);
   const [isCorrect, setIsCorrect] = useState(false);
   const [usedKeys, setUsedKeys] = useState<KeyColorMap>({});
   const [solution, setSolution] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
 
   // format a guess into an array of letter objects
   // e.g. [{key: 'a', color: 'yellow'}]
@@ -187,18 +188,20 @@ const usePharmdle = (numTurns: number) => {
     }
 
     if (key === 'Enter') {
-      // only add guess if turn is less than 5
       if (currentTurn() > numTurns) {
-        console.log('you used all your guesses!');
         return;
       }
-      // do not allow duplicate words
+      if (currentGuess.length === 0) {
+        return;
+      }
       if (guesses.some((g) => g.word === currentGuess)) {
-        console.log('you already tried that word.');
+        setMessage('Already tried that word');
+        setTimeout(() => setMessage(''), 2000);
         return;
       }
-      if (currentGuess.length !== solution.length) {
-        console.log(`word must be ${solution.length} chars.`);
+      if (!validDrugs.has(currentGuess)) {
+        setMessage('Not a valid drug');
+        setTimeout(() => setMessage(''), 2000);
         return;
       }
       const formatted = formatGuess(currentGuess);
@@ -208,8 +211,8 @@ const usePharmdle = (numTurns: number) => {
       setCurrentGuess((prev) => prev.slice(0, -1));
       return;
     }
-    if (/^[A-Za-z\*]$/.test(key)) {
-      if (currentGuess.length < solution.length) {
+    if (/^[A-Za-z]$/.test(key)) {
+      if (currentGuess.length < 14) {
         setCurrentGuess((prev) => prev + key.toLowerCase());
       }
     }
@@ -223,6 +226,7 @@ const usePharmdle = (numTurns: number) => {
     handleKeyup,
     solution,
     setSolution,
+    message,
   };
 };
 
