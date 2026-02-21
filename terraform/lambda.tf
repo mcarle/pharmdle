@@ -79,7 +79,7 @@ resource "aws_lambda_function" "rotate_daily_drug" {
   environment {
     variables = {
       BUCKET_NAME    = aws_s3_bucket.pharmdle.id
-      DRUG_NAMES_KEY = "drug_names"
+      DRUG_DATA_KEY  = "drug_data"
       DAILY_DRUG_KEY = "daily_drug"
     }
   }

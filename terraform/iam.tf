@@ -63,7 +63,7 @@ resource "aws_iam_role_policy" "rotate_daily_drug" {
       {
         Effect   = "Allow"
         Action   = "s3:GetObject"
-        Resource = "${aws_s3_bucket.pharmdle.arn}/drug_names"
+        Resource = "${aws_s3_bucket.pharmdle.arn}/drug_data"
       },
       {
         Effect = "Allow"

@@ -16,10 +16,10 @@ variable "aws_account_id" {
   default     = "842817210846"
 }
 
-variable "drug_names_file" {
-  description = "Local path to the drug_names file"
+variable "drug_data_file" {
+  description = "Local path to the drug_data.json file"
   type        = string
-  default     = "../utils/drug_names"
+  default     = "../utils/drug_data.json"
 }
 
 variable "daily_drug_default" {
