@@ -1,10 +1,11 @@
-import React, { use, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PharmdleRow from './PharmdleRow';
-import { Box, Button, Modal, Stack, Typography } from '@mui/material';
+import { Stack } from '@mui/material';
 import usePharmdle from './hooks/usePharmdle';
 import Keypad from './Keypad';
 import LostGameModal from './components/LostGameModal';
 import WonGameModal from './components/WonGameModal';
+import HintsDrawer from './components/HintsDrawer';
 
 export interface PharmdleGridProps {
   numRows: number;
@@ -22,15 +23,19 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
   } = usePharmdle(8);
 
   const [modalCleared, setModalCleared] = useState(false);
+  const [hints, setHints] = useState<Record<string, string[]> | null>(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
     const fetchDailyDrug = async () => {
       const response = await fetch(
-        'https://5bpsqzakript5dai5nolgdvv6e0tkmbr.lambda-url.us-east-1.on.aws/'
+        'https://5bpsqzakript5dai5nolgdvv6e0tkmbr.lambda-url.us-east-1.on.aws/?hints=true'
       );
-      const drug = await response.text();
-      console.log('fetched drug:', drug);
-      setSolution(drug.padEnd(14, '*'));
+      const data = await response.json();
+      console.log('fetched drug:', data.name);
+      setSolution(data.name.padEnd(14, '*'));
+      const { name, ...hintData } = data;
+      setHints(hintData);
     };
 
     fetchDailyDrug();
@@ -71,6 +76,11 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
         ))}
       </Stack>
       <Keypad usedKeys={usedKeys} onKeyClick={(key) => handleKeyup({ key })} />
+      <HintsDrawer
+        hints={hints}
+        open={drawerOpen}
+        onToggle={() => setDrawerOpen(!drawerOpen)}
+      />
       <LostGameModal
         open={shouldShowLostGameModal() && !modalCleared}
         solution={solution}
