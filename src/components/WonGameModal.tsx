@@ -6,11 +6,13 @@ const WonGameModal = ({
   onClose,
   open,
   numGuesses,
+  hintsUsed,
 }: {
   solution: string;
   onClose: () => void;
   open: boolean;
   numGuesses: number;
+  hintsUsed: number;
 }) => {
   return (
     <div className="modal" hidden={!open}>
@@ -18,7 +20,11 @@ const WonGameModal = ({
         <h2>You win!</h2>
         <p>
           You guessed the correct answer of {solution.replaceAll('*', '')} in{' '}
-          {numGuesses} {numGuesses === 1 ? 'try' : 'tries'}!
+          {numGuesses} {numGuesses === 1 ? 'try' : 'tries'}
+          {hintsUsed > 0
+            ? ` using ${hintsUsed} ${hintsUsed === 1 ? 'hint' : 'hints'}`
+            : ' using no hints'}
+          !
         </p>
         <Button variant="outlined" onClick={onClose}>
           Close

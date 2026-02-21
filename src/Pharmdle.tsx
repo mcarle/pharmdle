@@ -27,6 +27,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
   const [modalCleared, setModalCleared] = useState(false);
   const [hints, setHints] = useState<Record<string, string[]> | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [hintsUsed, setHintsUsed] = useState(0);
 
   useEffect(() => {
     const fetchDailyDrug = async () => {
@@ -52,6 +53,13 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
   // console.log(
   //   `turn: ${guesses.length}, currentGuess: ${currentGuess}, guesses: ${guesses}, usedKeys: ${usedKeys}, isCorrect: ${isCorrect}`
   // );
+
+  // Close hints drawer when game ends
+  useEffect(() => {
+    if (isCorrect || guesses.length === 8) {
+      setDrawerOpen(false);
+    }
+  }, [isCorrect, guesses.length]);
 
   if (!solution) {
     return <div>Loading...</div>;
@@ -83,17 +91,20 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
         hints={hints}
         open={drawerOpen}
         onToggle={() => setDrawerOpen(!drawerOpen)}
+        onReveal={(count) => setHintsUsed(count)}
       />
       <LostGameModal
         open={shouldShowLostGameModal() && !modalCleared}
         solution={solution}
         onClose={() => setModalCleared(true)}
+        hintsUsed={hintsUsed}
       />
       <WonGameModal
         open={shouldShowWonGameModal() && !modalCleared}
         solution={solution}
         onClose={() => setModalCleared(true)}
         numGuesses={guesses.length}
+        hintsUsed={hintsUsed}
       />
     </div>
   );
