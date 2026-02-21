@@ -9,7 +9,7 @@ interface KeypadProps {
 const rows = [
   ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
   ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'],
-  ['Enter', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '*', 'Backspace'],
+  ['Enter', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'Backspace'],
 ];
 
 export default function Keypad({ usedKeys, onKeyClick }: KeypadProps) {
