@@ -9,6 +9,10 @@ body {
 
 /* header */
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   font-size: 1.4em;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -17,6 +21,25 @@ body {
   border-bottom: 1px solid #3a3a3c;
   margin: 0 0 40px 0;
   color: #fff;
+}
+.header-info-btn {
+  position: absolute;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #3a3a3c;
+  background: transparent;
+  color: #818384;
+  font-size: 0.7em;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-info-btn:active {
+  transform: scale(0.95);
 }
 
 /* rows */
@@ -137,7 +160,7 @@ body {
   top: 0;
   left: 0;
 }
-.modal div {
+.modal-content {
   max-width: 480px;
   background: #1a1a1b;
   color: #fff;
@@ -152,6 +175,74 @@ body {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+/* info modal */
+.info-modal-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  text-align: left;
+}
+.info-modal-content h2 {
+  text-align: center;
+  margin-top: 0;
+}
+.info-modal-content h3 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #818384;
+  margin-bottom: 8px;
+}
+.info-modal-content p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+.info-modal-content ol {
+  padding-left: 20px;
+  font-size: 0.9em;
+  line-height: 1.8;
+}
+.info-modal-content a {
+  color: #538d4e;
+}
+.info-section {
+  margin-bottom: 20px;
+}
+.info-section:last-of-type {
+  margin-bottom: 24px;
+}
+.color-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.color-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9em;
+}
+.color-example {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.color-example.green {
+  background: #538d4e;
+}
+.color-example.yellow {
+  background: #b59f3b;
+}
+.color-example.grey {
+  background: #3a3a3c;
 }
 
 /* hints button */
