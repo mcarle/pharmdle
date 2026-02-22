@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div className="header">Pharmdle</div>
-      <Pharmdle numRows={8} />
+      <Pharmdle numRows={6} />
     </div>
   );
 }
