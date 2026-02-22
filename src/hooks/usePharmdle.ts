@@ -98,11 +98,17 @@ export interface KeyColorMap {
   z?: Color;
 }
 
-const usePharmdle = (numTurns: number, validDrugs: Set<string>) => {
+export interface InitialGameState {
+  guesses: Guess[];
+  isCorrect: boolean;
+  usedKeys: KeyColorMap;
+}
+
+const usePharmdle = (numTurns: number, validDrugs: Set<string>, initialState?: InitialGameState) => {
   const [currentGuess, setCurrentGuess] = useState('');
-  const [guesses, setGuesses] = useState<Guess[]>([]);
-  const [isCorrect, setIsCorrect] = useState(false);
-  const [usedKeys, setUsedKeys] = useState<KeyColorMap>({});
+  const [guesses, setGuesses] = useState<Guess[]>(initialState?.guesses ?? []);
+  const [isCorrect, setIsCorrect] = useState(initialState?.isCorrect ?? false);
+  const [usedKeys, setUsedKeys] = useState<KeyColorMap>(initialState?.usedKeys ?? {});
   const [solution, setSolution] = useState<string>('');
   const [message, setMessage] = useState<string>('');
 

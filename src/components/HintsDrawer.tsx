@@ -1,10 +1,11 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 
 interface HintsDrawerProps {
   hints: Record<string, string[]> | null;
   open: boolean;
   onToggle: () => void;
-  onReveal: (count: number) => void;
+  revealedHints: Set<string>;
+  onReveal: (hintKey: string) => void;
 }
 
 const HINT_LABELS: Record<string, string> = {
@@ -25,22 +26,13 @@ const HINT_ORDER = [
   'pharm_class_moa',
 ];
 
-const HintsDrawer = ({ hints, open, onToggle, onReveal }: HintsDrawerProps) => {
-  const [revealedHints, setRevealedHints] = useState<Set<string>>(new Set());
-
+const HintsDrawer = ({ hints, open, onToggle, revealedHints, onReveal }: HintsDrawerProps) => {
   const availableHints = useMemo(() => {
     if (!hints) return [];
     return HINT_ORDER.filter((key) => hints[key]?.length > 0);
   }, [hints]);
 
   if (!hints) return null;
-
-  const handleReveal = (key: string) => {
-    const updated = new Set(revealedHints);
-    updated.add(key);
-    setRevealedHints(updated);
-    onReveal(updated.size);
-  };
 
   const revealedCount = revealedHints.size;
   const totalCount = availableHints.length;
@@ -71,7 +63,7 @@ const HintsDrawer = ({ hints, open, onToggle, onReveal }: HintsDrawerProps) => {
               ) : (
                 <button
                   className="hint-reveal-btn"
-                  onClick={() => handleReveal(key)}
+                  onClick={() => onReveal(key)}
                 >
                   Reveal
                 </button>

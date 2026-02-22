@@ -1,18 +1,94 @@
 import React, { useEffect, useState } from 'react';
 import PharmdleRow from './PharmdleRow';
 import { Stack } from '@mui/material';
-import usePharmdle from './hooks/usePharmdle';
+import usePharmdle, { InitialGameState } from './hooks/usePharmdle';
 import Keypad from './Keypad';
 import LostGameModal from './components/LostGameModal';
 import WonGameModal from './components/WonGameModal';
 import HintsDrawer from './components/HintsDrawer';
 import validDrugs from './data/validDrugs';
+import { loadGameState, saveGameState, clearGameState } from './utils/gameStorage';
 
 export interface PharmdleGridProps {
   numRows: number;
 }
 
+interface ResolvedState {
+  solution: string;
+  hints: Record<string, string[]>;
+  initialGameState?: InitialGameState;
+  initialRevealedHints: Set<string>;
+}
+
 const Pharmdle = ({ numRows }: PharmdleGridProps) => {
+  const [resolved, setResolved] = useState<ResolvedState | null>(null);
+
+  useEffect(() => {
+    const fetchAndResolve = async () => {
+      const response = await fetch(
+        'https://5bpsqzakript5dai5nolgdvv6e0tkmbr.lambda-url.us-east-1.on.aws/?hints=true'
+      );
+      const data = await response.json();
+      console.log('fetched drug:', data.name);
+      const todaySolution = data.name.toLowerCase();
+      const { name, ...hintData } = data;
+
+      const saved = loadGameState();
+
+      if (saved && saved.solution === todaySolution) {
+        setResolved({
+          solution: todaySolution,
+          hints: hintData,
+          initialGameState: {
+            guesses: saved.guesses,
+            isCorrect: saved.isCorrect,
+            usedKeys: saved.usedKeys,
+          },
+          initialRevealedHints: new Set(saved.revealedHints),
+        });
+      } else {
+        clearGameState();
+        setResolved({
+          solution: todaySolution,
+          hints: hintData,
+          initialRevealedHints: new Set(),
+        });
+      }
+    };
+
+    fetchAndResolve();
+  }, []);
+
+  if (!resolved) {
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <PharmdleGame
+      numRows={numRows}
+      solution={resolved.solution}
+      hints={resolved.hints}
+      initialGameState={resolved.initialGameState}
+      initialRevealedHints={resolved.initialRevealedHints}
+    />
+  );
+};
+
+interface PharmdleGameProps {
+  numRows: number;
+  solution: string;
+  hints: Record<string, string[]>;
+  initialGameState?: InitialGameState;
+  initialRevealedHints: Set<string>;
+}
+
+const PharmdleGame = ({
+  numRows,
+  solution: initialSolution,
+  hints,
+  initialGameState,
+  initialRevealedHints,
+}: PharmdleGameProps) => {
   const {
     currentGuess,
     guesses,
@@ -22,37 +98,23 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
     setSolution,
     solution,
     message,
-  } = usePharmdle(6, validDrugs);
+  } = usePharmdle(6, validDrugs, initialGameState);
 
   const [modalCleared, setModalCleared] = useState(false);
-  const [hints, setHints] = useState<Record<string, string[]> | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [hintsUsed, setHintsUsed] = useState(0);
+  const [revealedHints, setRevealedHints] = useState<Set<string>>(initialRevealedHints);
+
+  const hintsUsed = revealedHints.size;
 
   useEffect(() => {
-    const fetchDailyDrug = async () => {
-      const response = await fetch(
-        'https://5bpsqzakript5dai5nolgdvv6e0tkmbr.lambda-url.us-east-1.on.aws/?hints=true'
-      );
-      const data = await response.json();
-      console.log('fetched drug:', data.name);
-      setSolution(data.name.toLowerCase());
-      const { name, ...hintData } = data;
-      setHints(hintData);
-    };
-
-    fetchDailyDrug();
-  }, []);
+    setSolution(initialSolution);
+  }, [initialSolution, setSolution]);
 
   useEffect(() => {
     window.addEventListener('keyup', handleKeyup);
 
     return () => window.removeEventListener('keyup', handleKeyup);
   }, [handleKeyup]);
-
-  // console.log(
-  //   `turn: ${guesses.length}, currentGuess: ${currentGuess}, guesses: ${guesses}, usedKeys: ${usedKeys}, isCorrect: ${isCorrect}`
-  // );
 
   // Close hints drawer when game ends
   useEffect(() => {
@@ -61,9 +123,25 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
     }
   }, [isCorrect, guesses.length]);
 
-  if (!solution) {
-    return <div>Loading...</div>;
-  }
+  // Persist game state to localStorage
+  useEffect(() => {
+    if (!solution) return;
+    saveGameState({
+      solution,
+      guesses,
+      isCorrect,
+      usedKeys,
+      revealedHints: Array.from(revealedHints),
+    });
+  }, [solution, guesses, isCorrect, usedKeys, revealedHints]);
+
+  const handleHintReveal = (hintKey: string) => {
+    setRevealedHints((prev) => {
+      const updated = new Set(prev);
+      updated.add(hintKey);
+      return updated;
+    });
+  };
 
   const shouldShowWonGameModal = () => {
     return isCorrect && guesses.length <= 6 && !modalCleared;
@@ -91,7 +169,8 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
         hints={hints}
         open={drawerOpen}
         onToggle={() => setDrawerOpen(!drawerOpen)}
-        onReveal={(count) => setHintsUsed(count)}
+        revealedHints={revealedHints}
+        onReveal={handleHintReveal}
       />
       <LostGameModal
         open={shouldShowLostGameModal() && !modalCleared}
