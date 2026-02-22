@@ -212,6 +212,11 @@ body {
 .info-section:last-of-type {
   margin-bottom: 24px;
 }
+.info-modal-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
 .color-legend {
   display: flex;
   flex-direction: column;
