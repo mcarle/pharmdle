@@ -5,10 +5,12 @@ const LostGameModal = ({
   solution,
   onClose,
   open,
+  hintsUsed,
 }: {
   solution: string;
   onClose: () => void;
   open: boolean;
+  hintsUsed: number;
 }) => {
   return (
     <div className="modal" hidden={!open}>
@@ -19,6 +21,9 @@ const LostGameModal = ({
           can't do any worse.
         </p>
         <p>The correct answer was: {solution.replaceAll('*', '')}</p>
+        <p>
+          Hints used: {hintsUsed}
+        </p>
         <Button variant="outlined" onClick={onClose}>
           Close
         </Button>

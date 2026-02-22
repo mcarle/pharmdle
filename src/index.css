@@ -242,6 +242,20 @@ body {
   font-size: 0.85em;
   text-align: right;
 }
+.hint-reveal-btn {
+  background: #3a3a3c;
+  color: #818384;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 14px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.hint-reveal-btn:active {
+  transform: scale(0.95);
+}
 
 /* responsive tiles */
 @media (max-width: 600px) {
