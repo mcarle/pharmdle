@@ -75,9 +75,19 @@ const InfoModal = ({
           </p>
         </div>
 
-        <Button variant="outlined" onClick={onClose}>
-          Close
-        </Button>
+        <div className="info-modal-buttons">
+          <Button
+            variant="outlined"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfmctEN7bDDdJC95Wxrr_T_usrRplLmCvl7WgmnfEs63QvA_Q/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Submit Feedback
+          </Button>
+          <Button variant="outlined" onClick={onClose}>
+            Close
+          </Button>
+        </div>
       </div>
     </div>
   );
