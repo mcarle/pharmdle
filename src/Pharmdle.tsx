@@ -22,7 +22,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
     setSolution,
     solution,
     message,
-  } = usePharmdle(8, validDrugs);
+  } = usePharmdle(6, validDrugs);
 
   const [modalCleared, setModalCleared] = useState(false);
   const [hints, setHints] = useState<Record<string, string[]> | null>(null);
@@ -56,7 +56,7 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
 
   // Close hints drawer when game ends
   useEffect(() => {
-    if (isCorrect || guesses.length === 8) {
+    if (isCorrect || guesses.length === 6) {
       setDrawerOpen(false);
     }
   }, [isCorrect, guesses.length]);
@@ -66,11 +66,11 @@ const Pharmdle = ({ numRows }: PharmdleGridProps) => {
   }
 
   const shouldShowWonGameModal = () => {
-    return isCorrect && guesses.length <= 8 && !modalCleared;
+    return isCorrect && guesses.length <= 6 && !modalCleared;
   };
 
   const shouldShowLostGameModal = () => {
-    return guesses.length === 8 && !isCorrect;
+    return guesses.length === 6 && !isCorrect;
   };
 
   return (
