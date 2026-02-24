@@ -59,10 +59,14 @@ src/
 │   └── usePharmdle.ts             # Custom hook for core game logic
 ├── components/
 │   ├── HintsDrawer.tsx            # Progressive hint reveal drawer
+│   ├── InfoModal.tsx              # How-to-play and about modal
 │   ├── WonGameModal.tsx           # Victory modal
 │   └── LostGameModal.tsx          # Game-over modal
 ├── data/
 │   └── validDrugs.ts              # Static set of valid drug names for guess validation
+├── utils/
+│   ├── analytics.ts               # Google Analytics event tracking wrapper
+│   └── gameStorage.ts             # localStorage persistence for game state
 └── index.css                      # Global styles and animations
 
 terraform/
@@ -70,6 +74,7 @@ terraform/
 ├── iam.tf                         # IAM roles and inline policies
 ├── lambda.tf                      # Lambda functions, log groups, Function URL
 ├── eventbridge.tf                 # Scheduler schedule and scheduler IAM role
+├── monitoring.tf                  # CloudWatch dashboard, alarms, SNS topic
 ├── variables.tf                   # Input variables
 ├── outputs.tf                     # Function URL, bucket name, Lambda ARNs
 ├── IMPORT.md                      # Instructions for importing existing AWS resources
@@ -133,6 +138,12 @@ aws amplify get-job --app-id d1zf2mt5b84s5d --branch-name main --job-id <JOB_ID>
 ```
 
 You can also check the [Amplify console](https://us-east-1.console.aws.amazon.com/amplify/apps/d1zf2mt5b84s5d) directly.
+
+## Monitoring
+
+- [Google Analytics dashboard](https://analytics.google.com/analytics/web/) — frontend game events (measurement ID: `G-XV5S4WVXQ1`)
+- [CloudWatch dashboard (Pharmdle)](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/Pharmdle) — Lambda invocations, errors, duration, throttles
+- [CloudWatch alarms](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:) — getDailyDrug errors/latency, rotateDailyDrug errors/missed runs
 
 ## Refreshing the Drug Database
 
