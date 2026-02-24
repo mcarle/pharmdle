@@ -185,6 +185,9 @@ const usePharmdle = (numTurns: number, validDrugs: Set<string>, initialState?: I
           prevUsedKeys[key] = 'yellow';
           return;
         }
+        if (guessKeyColor.color === 'grey' && !currentColor) {
+          prevUsedKeys[key] = 'grey';
+        }
       });
 
       return prevUsedKeys;
