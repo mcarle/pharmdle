@@ -359,6 +359,21 @@ body {
 .hint-reveal-btn:active {
   transform: scale(0.95);
 }
+.hint-reveal-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+  text-transform: none;
+  font-weight: normal;
+}
+.hint-reveal-btn:disabled:active {
+  transform: none;
+}
+.hints-note {
+  color: #606062;
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 16px;
+}
 
 /* responsive tiles */
 @media (max-width: 600px) {
