@@ -211,14 +211,13 @@ const PharmdleGame = ({
   }, [solution, guesses, isCorrect, usedKeys, revealedHints, startTime]);
 
   const handleHintReveal = (hintKey: string) => {
-    setRevealedHints((prev) => {
-      const updated = new Set(prev);
-      updated.add(hintKey);
-      trackEvent('hint_revealed', {
-        hint_category: hintKey,
-        hints_total: updated.size,
-      });
-      return updated;
+    if (revealedHints.has(hintKey)) return;
+    const updated = new Set(revealedHints);
+    updated.add(hintKey);
+    setRevealedHints(updated);
+    trackEvent('hint_revealed', {
+      hint_category: hintKey,
+      hints_total: updated.size,
     });
   };
 

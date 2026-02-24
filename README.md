@@ -145,6 +145,18 @@ You can also check the [Amplify console](https://us-east-1.console.aws.amazon.co
 - [CloudWatch dashboard (Pharmdle)](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/Pharmdle) — Lambda invocations, errors, duration, throttles
 - [CloudWatch alarms](https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#alarmsV2:) — getDailyDrug errors/latency, rotateDailyDrug errors/missed runs
 
+### Custom GA4 Events
+
+| Event | Parameters | Description |
+|-------|-----------|-------------|
+| `api_fetch` | `latency_ms`, `success` | API call to fetch the daily drug |
+| `game_start` | `resumed` | Game loaded (new or resumed from localStorage) |
+| `guess_submitted` | `guess_number` | Valid guess submitted (1–6) |
+| `game_won` | `guess_number`, `hints_used`, `time_to_complete_s` | Player guessed correctly |
+| `game_lost` | `hints_used`, `time_to_complete_s` | Player used all 6 guesses |
+| `hint_revealed` | `hint_category`, `hints_total` | Player revealed a hint |
+| `invalid_guess` | `reason` (`not_valid_drug` / `already_tried`) | Rejected guess attempt |
+
 ## Refreshing the Drug Database
 
 To update the game's drug list with new FDA data:
