@@ -1,17 +1,31 @@
 import { Button } from '@mui/material';
-import React from 'react';
+import React, { useState } from 'react';
+import { Guess } from '../hooks/usePharmdle';
+import { generateShareText } from '../utils/shareResults';
 
 const LostGameModal = ({
   solution,
   onClose,
   open,
   hintsUsed,
+  guesses,
 }: {
   solution: string;
   onClose: () => void;
   open: boolean;
   hintsUsed: number;
+  guesses: Guess[];
 }) => {
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = () => {
+    const text = generateShareText(guesses, hintsUsed, false);
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
+
   return (
     <div className="modal" hidden={!open}>
       <div className="modal-content">
@@ -35,9 +49,14 @@ const LostGameModal = ({
         <p>
           Hints used: {hintsUsed}
         </p>
-        <Button variant="outlined" onClick={onClose}>
-          Close
-        </Button>
+        <div className="modal-buttons">
+          <Button variant="outlined" onClick={handleShare}>
+            {copied ? 'Copied!' : 'Share'}
+          </Button>
+          <Button variant="outlined" onClick={onClose}>
+            Close
+          </Button>
+        </div>
       </div>
     </div>
   );

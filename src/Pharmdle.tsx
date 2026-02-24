@@ -255,6 +255,7 @@ const PharmdleGame = ({
         solution={solution}
         onClose={() => setModalCleared(true)}
         hintsUsed={hintsUsed}
+        guesses={guesses}
       />
       <WonGameModal
         open={shouldShowWonGameModal() && !modalCleared}
@@ -262,6 +263,7 @@ const PharmdleGame = ({
         onClose={() => setModalCleared(true)}
         numGuesses={guesses.length}
         hintsUsed={hintsUsed}
+        guesses={guesses}
       />
     </div>
   );
