@@ -27,3 +27,9 @@ variable "daily_drug_default" {
   type        = string
   default     = "fentanyl"
 }
+
+variable "alarm_email" {
+  description = "Email address for CloudWatch alarm notifications"
+  type        = string
+  default     = "mattcarle15@gmail.com"
+}

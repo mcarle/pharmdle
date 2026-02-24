@@ -8,6 +8,7 @@ export interface PersistedGameState {
   isCorrect: boolean;
   usedKeys: KeyColorMap;
   revealedHints: string[];
+  startTime?: number;
 }
 
 export function loadGameState(): PersistedGameState | null {

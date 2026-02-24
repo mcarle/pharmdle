@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { trackEvent } from '../utils/analytics';
 
 export const letters = [
   'a',
@@ -213,11 +214,13 @@ const usePharmdle = (numTurns: number, validDrugs: Set<string>, initialState?: I
       if (guesses.some((g) => g.word === currentGuess)) {
         setMessage('Already tried that word');
         setTimeout(() => setMessage(''), 2000);
+        trackEvent('invalid_guess', { reason: 'already_tried' });
         return;
       }
       if (!validDrugs.has(currentGuess)) {
         setMessage('Not a valid drug');
         setTimeout(() => setMessage(''), 2000);
+        trackEvent('invalid_guess', { reason: 'not_valid_drug' });
         return;
       }
       const formatted = formatGuess(currentGuess);
