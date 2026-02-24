@@ -55,21 +55,28 @@ const HintsDrawer = ({ hints, open, onToggle, revealedHints, onReveal }: HintsDr
           </button>
         </div>
         <div className="hints-drawer-body">
-          {availableHints.map((key) => (
-            <div className="hint-row" key={key}>
-              <span className="hint-label">{HINT_LABELS[key]}</span>
-              {revealedHints.has(key) ? (
-                <span className="hint-value">{hints[key].join(', ')}</span>
-              ) : (
-                <button
-                  className="hint-reveal-btn"
-                  onClick={() => onReveal(key)}
-                >
-                  Reveal
-                </button>
-              )}
-            </div>
-          ))}
+          {HINT_ORDER.map((key) => {
+            const hasData = hints[key]?.length > 0;
+            return (
+              <div className="hint-row" key={key}>
+                <span className="hint-label">{HINT_LABELS[key]}</span>
+                {revealedHints.has(key) ? (
+                  <span className="hint-value">{hints[key].join(', ')}</span>
+                ) : (
+                  <button
+                    className="hint-reveal-btn"
+                    onClick={() => onReveal(key)}
+                    disabled={!hasData}
+                  >
+                    {hasData ? 'Reveal' : 'Unavailable'}
+                  </button>
+                )}
+              </div>
+            );
+          })}
+          <p className="hints-note">
+            Not all hints are available for every drug.
+          </p>
         </div>
       </div>
     </>
