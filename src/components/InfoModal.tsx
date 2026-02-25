@@ -26,14 +26,14 @@ const InfoModal = ({
           <ol>
             <li>Type a valid drug name using the on-screen or physical keyboard</li>
             <li>Press <strong>Enter</strong> to submit your guess</li>
-            <li>After each guess, tiles flip to reveal colour-coded feedback</li>
+            <li>After each guess, tiles flip to reveal color-coded feedback</li>
             <li>Use the feedback to narrow down the answer</li>
             <li>The drug name may be shorter than 14 characters — empty tiles past the answer will turn green</li>
           </ol>
         </div>
 
         <div className="info-section">
-          <h3>Colour Guide</h3>
+          <h3>Color Guide</h3>
           <div className="color-legend">
             <div className="color-legend-row">
               <span className="color-example green">A</span>

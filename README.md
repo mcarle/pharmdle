@@ -1,13 +1,13 @@
 # Pharmdle
 
-A pharmacy-themed word-guessing game inspired by [Wordle](https://www.nytimes.com/games/wordle/index.html). Each day, a new pharmaceutical drug name is selected and players have 6 attempts to guess it using colour-coded feedback.
+A pharmacy-themed word-guessing game inspired by [Wordle](https://www.nytimes.com/games/wordle/index.html). Each day, a new pharmaceutical drug name is selected and players have 6 attempts to guess it using color-coded feedback.
 
 ## How to Play
 
 1. Each puzzle is a pharmaceutical drug name (up to 14 characters)
 2. Type your guess using the on-screen keyboard or your physical keyboard (letters A-Z)
 3. Press **Enter** to submit a guess — only valid drug names are accepted
-4. After each guess, tiles flip to reveal colour-coded hints:
+4. After each guess, tiles flip to reveal color-coded hints:
    - **Green** — correct letter in the correct position
    - **Yellow** — correct letter in the wrong position
    - **Grey** — letter is not in the word
