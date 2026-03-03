@@ -57,7 +57,7 @@
     ],
     "class": [
       "Muscle Relaxant",
-      "Antispasticity Agent"
+      "Antispasticity"
     ],
     "indications": [
       "Muscle Spasticity",
@@ -283,7 +283,7 @@
     ],
     "class": [
       "Analgesic",
-      "Anti-inflammatory",
+      "Anti-Inflammatory",
       "NSAID"
     ],
     "indications": [
@@ -343,7 +343,7 @@
       "Protein Synthesis Inhibitors [MoA]"
     ],
     "class": [
-      "Anti-inflammatory",
+      "Anti-Inflammatory",
       "Aminosalicylate"
     ],
     "indications": [
@@ -410,7 +410,7 @@
     ],
     "class": [
       "Antiemetic",
-      "5-HT3 Antagonist"
+      "5-Ht3 Antagonist"
     ],
     "indications": [
       "Nausea",
@@ -545,7 +545,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Anti-epileptic"
+      "Anti-Epileptic"
     ],
     "indications": [
       "Epilepsy",
@@ -575,7 +575,7 @@
     ],
     "class": [
       "Anabolic Steroid",
-      "Androgenic Agent"
+      "Androgenic"
     ],
     "indications": [
       "Severe Burns",
@@ -942,7 +942,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Neuropathic Pain Agent"
+      "Neuropathic Pain"
     ],
     "indications": [
       "Neuropathic Pain",
@@ -1244,7 +1244,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Inflammation",
@@ -1350,7 +1350,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Inflammation",
@@ -1382,7 +1382,7 @@
     ],
     "class": [
       "Chemotherapy",
-      "Platinum-based Agent"
+      "Platinum-Based"
     ],
     "indications": [
       "Cancer",
@@ -1477,7 +1477,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Topical Anti-inflammatory"
+      "Topical Anti-Inflammatory"
     ],
     "indications": [
       "Skin Inflammation",
@@ -1573,7 +1573,7 @@
     ],
     "class": [
       "Muscle Relaxant",
-      "Antispasticity Agent"
+      "Antispasticity"
     ],
     "indications": [
       "Muscle Spasticity",
@@ -1608,7 +1608,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Anti-epileptic"
+      "Anti-Epileptic"
     ],
     "indications": [
       "Epilepsy",
@@ -1673,8 +1673,8 @@
       "X-Ray Contrast Activity [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "Radiographic Contrast Agent"
+      "Diagnostic",
+      "Radiographic Contrast"
     ],
     "indications": [
       "Diagnostic Imaging",
@@ -1704,7 +1704,7 @@
     ],
     "class": [
       "Anticholinergic",
-      "Antiparkinson Agent"
+      "Antiparkinson"
     ],
     "indications": [
       "Parkinson's Disease",
@@ -1735,7 +1735,7 @@
       "P2Y12 Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Antiplatelet Agent",
+      "Antiplatelet",
       "Antithrombotic"
     ],
     "indications": [
@@ -1840,7 +1840,7 @@
     "class": [
       "NSAID",
       "Analgesic",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Rheumatoid Arthritis",
@@ -1876,7 +1876,7 @@
     ],
     "class": [
       "Antiretroviral",
-      "NNRTI"
+      "Nnrti"
     ],
     "indications": [
       "HIV Infection",
@@ -1908,7 +1908,7 @@
       "Antifungal"
     ],
     "indications": [
-      "Fungal Infections",
+      "Fungal infections",
       "Tinea Capitis",
       "Onychomycosis"
     ]
@@ -2085,7 +2085,7 @@
       "Uric Acid Degrading Enzymes [MoA]"
     ],
     "class": [
-      "Uricosuric Agent",
+      "Uricosuric",
       "Enzyme Therapy"
     ],
     "indications": [
@@ -2115,7 +2115,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Bone Agent"
+      "Bone"
     ],
     "indications": [
       "Osteoporosis",
@@ -2410,8 +2410,8 @@
       "Topoisomerase Inhibitors [MoA]"
     ],
     "class": [
-      "Cardioprotective Agent",
-      "Chelating Agent"
+      "Cardioprotective",
+      "Chelating"
     ],
     "indications": [
       "Doxorubicin Cardiotoxicity",
@@ -2538,7 +2538,7 @@
       "Antifungal"
     ],
     "indications": [
-      "Fungal Infections",
+      "Fungal infections",
       "Cryptococcal Meningitis",
       "Candidiasis"
     ]
@@ -2604,7 +2604,7 @@
     "class": [
       "NSAID",
       "Analgesic",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Headache",
@@ -2636,7 +2636,7 @@
       "Nicotinic Acetylcholine Receptor Agonists [MoA]"
     ],
     "class": [
-      "Smoking Cessation Agent"
+      "Smoking Cessation"
     ],
     "indications": [
       "Tobacco Use Disorder",
@@ -2826,7 +2826,7 @@
       "Angiotensin 2 Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Angiotensin II Receptor Blocker",
+      "Angiotensin Ii Receptor Blocker",
       "Antihypertensive"
     ],
     "indications": [
@@ -2860,7 +2860,7 @@
     ],
     "class": [
       "Prostaglandin Analog",
-      "Antiglaucoma Agent"
+      "Antiglaucoma"
     ],
     "indications": [
       "Glaucoma",
@@ -2964,7 +2964,7 @@
     ],
     "class": [
       "Prostaglandin Analog",
-      "Antiglaucoma Agent"
+      "Antiglaucoma"
     ],
     "indications": [
       "Glaucoma",
@@ -3102,7 +3102,7 @@
     ],
     "class": [
       "Antiretroviral",
-      "NNRTI"
+      "Nnrti"
     ],
     "indications": [
       "HIV Infection",
@@ -3391,7 +3391,7 @@
     ],
     "class": [
       "Analgesic",
-      "Anti-inflammatory",
+      "Anti-Inflammatory",
       "NSAID"
     ],
     "indications": [
@@ -3685,7 +3685,7 @@
     ],
     "class": [
       "Antiplatelet",
-      "P2Y12 Inhibitor"
+      "P2y12 Inhibitor"
     ],
     "indications": [
       "Acute Coronary Syndrome",
@@ -4007,7 +4007,7 @@
     ],
     "class": [
       "Antiplatelet",
-      "P2Y12 Inhibitor"
+      "P2y12 Inhibitor"
     ],
     "indications": [
       "Acute Coronary Syndrome",
@@ -4067,7 +4067,7 @@
       "Organic Solute Transporter Beta Inhibitors [MoA]"
     ],
     "class": [
-      "Cholelithic Agent",
+      "Cholelithic",
       "Bile Acid"
     ],
     "indications": [
@@ -4160,7 +4160,7 @@
     ],
     "class": [
       "Analgesic",
-      "Anti-inflammatory",
+      "Anti-Inflammatory",
       "NSAID"
     ],
     "indications": [
@@ -4423,7 +4423,7 @@
     ],
     "class": [
       "Antiparkinson",
-      "COMT Inhibitor"
+      "Comt Inhibitor"
     ],
     "indications": [
       "Parkinson Disease",
@@ -4516,7 +4516,7 @@
       "Cyclooxygenase Inhibitors [MoA]"
     ],
     "class": [
-      "Ophthalmic Anti-inflammatory",
+      "Ophthalmic Anti-Inflammatory",
       "NSAID"
     ],
     "indications": [
@@ -4750,7 +4750,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Asthma",
@@ -5308,7 +5308,7 @@
     ],
     "class": [
       "Opioid Antagonist",
-      "Gastrointestinal Agent"
+      "Gastrointestinal"
     ],
     "indications": [
       "Postoperative Ileus",
@@ -5372,7 +5372,7 @@
     ],
     "class": [
       "Hormone",
-      "DHEA"
+      "Dhea"
     ],
     "indications": [
       "Vaginal Atrophy",
@@ -5404,7 +5404,7 @@
       "Tubulin Antagonists [MoA]"
     ],
     "class": [
-      "Anti-inflammatory",
+      "Anti-Inflammatory",
       "Antigout"
     ],
     "indications": [
@@ -5498,7 +5498,7 @@
     ],
     "class": [
       "Statin",
-      "Lipid-Lowering Agent"
+      "Lipid-Lowering"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -5562,7 +5562,7 @@
       "CXCR4 Antagonists [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent",
+      "Hematopoietic",
       "Stem Cell Mobilizer"
     ],
     "indications": [
@@ -5661,7 +5661,7 @@
     ],
     "class": [
       "Antiplatelet",
-      "Cytoreductive Agent"
+      "Cytoreductive"
     ],
     "indications": [
       "Essential Thrombocythemia",
@@ -5783,7 +5783,7 @@
       "Iron Chelating Activity [MoA]"
     ],
     "class": [
-      "Chelating Agent",
+      "Chelating",
       "Antidote"
     ],
     "indications": [
@@ -5818,7 +5818,7 @@
     ],
     "class": [
       "Histamine-2 Receptor Antagonist",
-      "Acid-Reducing Agent"
+      "Acid-Reducing"
     ],
     "indications": [
       "GERD",
@@ -5980,7 +5980,7 @@
       "Antiangioedema"
     ],
     "indications": [
-      "Hereditary Angioedema",
+      "Hereditary angioedema",
       "Acute Angioedema Attacks"
     ]
   },
@@ -6238,7 +6238,7 @@
     ],
     "class": [
       "Antihistamine",
-      "Ophthalmic Agent"
+      "Ophthalmic"
     ],
     "indications": [
       "Allergic Conjunctivitis",
@@ -6532,7 +6532,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Dermatitis",
@@ -6601,7 +6601,7 @@
     "class": [
       "NSAID",
       "Analgesic",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Osteoarthritis",
@@ -6759,7 +6759,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Anti-epileptic"
+      "Anti-Epileptic"
     ],
     "indications": [
       "Absence Seizures",
@@ -6826,7 +6826,7 @@
     ],
     "class": [
       "Muscle Relaxant",
-      "GABA Agonist"
+      "Gaba Agonist"
     ],
     "indications": [
       "Spasticity",
@@ -6856,7 +6856,7 @@
     ],
     "class": [
       "Antiviral",
-      "Topical Agent"
+      "Topical"
     ],
     "indications": [
       "Herpes Labialis",
@@ -7053,7 +7053,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Anti-epileptic"
+      "Anti-Epileptic"
     ],
     "indications": [
       "Infantile Spasms",
@@ -7083,7 +7083,7 @@
       "Myocardial Perfusion Agents [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
+      "Diagnostic",
       "Cardiac Imaging"
     ],
     "indications": [
@@ -7113,7 +7113,7 @@
     ],
     "class": [
       "Microtubule Inhibitor",
-      "Dermatologic Agent"
+      "Dermatologic"
     ],
     "indications": [
       "Actinic Keratosis"
@@ -7212,7 +7212,7 @@
     ],
     "class": [
       "Anticancer",
-      "Alkylating Agent"
+      "Alkylating"
     ],
     "indications": [
       "Brain Tumor",
@@ -7315,7 +7315,7 @@
     ],
     "class": [
       "Adenosine Receptor Agonist",
-      "Diagnostic Agent"
+      "Diagnostic"
     ],
     "indications": [
       "Cardiac Stress Testing",
@@ -7405,7 +7405,7 @@
     ],
     "class": [
       "Electrolyte Modulator",
-      "Antihyperphosphatemia Agent"
+      "Antihyperphosphatemia"
     ],
     "indications": [
       "Hyperphosphatemia",
@@ -7501,7 +7501,7 @@
     ],
     "class": [
       "Aminosalicylate",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Ulcerative Colitis",
@@ -7560,8 +7560,8 @@
       "Fluorescent Contrast Agents [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "Optical Imaging Agent"
+      "Diagnostic",
+      "Optical Imaging"
     ],
     "indications": [
       "Cancer Detection",
@@ -7762,7 +7762,7 @@
     ],
     "class": [
       "Retinoid",
-      "Dermatologic Agent"
+      "Dermatologic"
     ],
     "indications": [
       "Psoriasis",
@@ -7859,7 +7859,7 @@
       "Isocitrate Dehydrogenase 1 Inhibitors [MoA]"
     ],
     "class": [
-      "IDH Inhibitor",
+      "Idh Inhibitor",
       "Anticancer"
     ],
     "indications": [
@@ -7921,7 +7921,7 @@
       "Cystine Disulfide Reduction [MoA]"
     ],
     "class": [
-      "Reducing Agent",
+      "Reducing",
       "Antilithic"
     ],
     "indications": [
@@ -8077,7 +8077,7 @@
       "Alkylating Activity [MoA]"
     ],
     "class": [
-      "Alkylating Agent",
+      "Alkylating",
       "Anticancer"
     ],
     "indications": [
@@ -8139,7 +8139,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Antiepileptic Agent"
+      "Antiepileptic"
     ],
     "indications": [
       "Seizures",
@@ -8328,7 +8328,7 @@
     ],
     "class": [
       "Antidiabetic",
-      "GLP-1 Agonist"
+      "Glp-1 Agonist"
     ],
     "indications": [
       "Type 2 Diabetes",
@@ -8421,7 +8421,7 @@
     ],
     "class": [
       "Antibiotic",
-      "Fluoroquinolone-like"
+      "Fluoroquinolone-Like"
     ],
     "indications": [
       "Bacterial Infection",
@@ -8587,7 +8587,7 @@
       "Survival of Motor Neuron 2 Splicing Modifiers [MoA]"
     ],
     "class": [
-      "Neuromuscular Agent",
+      "Neuromuscular",
       "Splicing Modifier"
     ],
     "indications": [
@@ -8710,7 +8710,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "TNF Inhibitor"
+      "Tnf Inhibitor"
     ],
     "indications": [
       "Rheumatoid Arthritis",
@@ -9024,7 +9024,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "mTOR Inhibitor"
+      "Mtor Inhibitor"
     ],
     "indications": [
       "Transplant Rejection",
@@ -9397,7 +9397,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Alkylating Agent"
+      "Alkylating"
     ],
     "indications": [
       "Glioblastoma",
@@ -9458,7 +9458,7 @@
     ],
     "class": [
       "Antiemetic",
-      "5-HT3 Antagonist"
+      "5-Ht3 Antagonist"
     ],
     "indications": [
       "Nausea",
@@ -9670,7 +9670,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Alkylating Agent"
+      "Alkylating"
     ],
     "indications": [
       "Bladder Cancer",
@@ -9734,7 +9734,7 @@
     ],
     "class": [
       "Antimycobacterial",
-      "Antituberculosis Agent"
+      "Antituberculosis"
     ],
     "indications": [
       "Tuberculosis",
@@ -9767,7 +9767,7 @@
     ],
     "class": [
       "Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial infections",
@@ -9799,7 +9799,7 @@
     ],
     "class": [
       "Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial infections",
@@ -9837,10 +9837,10 @@
     ],
     "class": [
       "Vasodilator",
-      "Hair growth stimulant"
+      "Hair Growth Stimulant"
     ],
     "indications": [
-      "Male pattern baldness",
+      "Male Pattern Baldness",
       "Hypertension"
     ]
   },
@@ -9871,8 +9871,8 @@
     ],
     "indications": [
       "Autoimmune diseases",
-      "Transplant rejection",
-      "Inflammatory bowel disease"
+      "Transplant Rejection",
+      "Inflammatory Bowel Disease"
     ]
   },
   {
@@ -9904,7 +9904,7 @@
     ],
     "indications": [
       "Schizophrenia",
-      "Bipolar disorder",
+      "Bipolar Disorder",
       "Psychosis"
     ]
   },
@@ -9933,7 +9933,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Topical anti-inflammatory"
+      "Topical Anti-Inflammatory"
     ],
     "indications": [
       "Dermatitis",
@@ -10004,7 +10004,7 @@
     "indications": [
       "Depression",
       "Anxiety",
-      "Chronic pain"
+      "Chronic Pain"
     ]
   },
   {
@@ -10061,11 +10061,11 @@
     ],
     "class": [
       "NSAID",
-      "Anti-inflammatory analgesic"
+      "Anti-Inflammatory Analgesic"
     ],
     "indications": [
       "Arthritis",
-      "Chronic pain",
+      "Chronic Pain",
       "Inflammation"
     ]
   },
@@ -10092,7 +10092,7 @@
     ],
     "class": [
       "Antiviral",
-      "Nucleoside analog"
+      "Nucleoside Analog"
     ],
     "indications": [
       "Herpes simplex keratitis",
@@ -10124,7 +10124,7 @@
       "Sulfonylurea"
     ],
     "indications": [
-      "Type 2 diabetes",
+      "Type 2 Diabetes",
       "Hyperglycemia"
     ]
   },
@@ -10184,8 +10184,8 @@
     ],
     "indications": [
       "Hypertension",
-      "Heart failure",
-      "Myocardial infarction"
+      "Heart Failure",
+      "Myocardial Infarction"
     ]
   },
   {
@@ -10251,8 +10251,8 @@
       "Free Radical Scavengers [MoA]"
     ],
     "class": [
-      "Antineoplastic adjunct",
-      "Uroprotective agent"
+      "Antineoplastic Adjunct",
+      "Uroprotective"
     ],
     "indications": [
       "Hemorrhagic cystitis prevention",
@@ -10286,11 +10286,11 @@
     ],
     "class": [
       "Laxative",
-      "Hepatic encephalopathy agent"
+      "Hepatic Encephalopathy"
     ],
     "indications": [
       "Constipation",
-      "Hepatic encephalopathy"
+      "Hepatic Encephalopathy"
     ]
   },
   {
@@ -10316,11 +10316,11 @@
     ],
     "class": [
       "NSAID",
-      "Anti-inflammatory analgesic"
+      "Anti-Inflammatory Analgesic"
     ],
     "indications": [
       "Arthritis",
-      "Chronic pain",
+      "Chronic Pain",
       "Inflammation"
     ]
   },
@@ -10347,7 +10347,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Topical anti-inflammatory"
+      "Topical Anti-Inflammatory"
     ],
     "indications": [
       "Dermatitis",
@@ -10378,12 +10378,12 @@
     ],
     "class": [
       "Diuretic",
-      "Loop diuretic"
+      "Loop Diuretic"
     ],
     "indications": [
       "Edema",
       "Hypertension",
-      "Heart failure"
+      "Heart Failure"
     ]
   },
   {
@@ -10414,12 +10414,12 @@
       "Sodium-potassium ATPase Inhibitors [MoA]"
     ],
     "class": [
-      "Cardiac glycoside",
-      "Inotropic agent"
+      "Cardiac Glycoside",
+      "Inotropic"
     ],
     "indications": [
-      "Heart failure",
-      "Atrial fibrillation",
+      "Heart Failure",
+      "Atrial Fibrillation",
       "Arrhythmia"
     ]
   },
@@ -10447,13 +10447,13 @@
       "Adrenergic beta2-Antagonists [MoA]"
     ],
     "class": [
-      "Beta-blocker",
-      "Alpha-blocker",
+      "Beta-Blocker",
+      "Alpha-Blocker",
       "Antihypertensive"
     ],
     "indications": [
       "Hypertension",
-      "Heart failure",
+      "Heart Failure",
       "Angina"
     ]
   },
@@ -10480,8 +10480,8 @@
       "Calcium Channel Antagonists [MoA]"
     ],
     "class": [
-      "Calcium channel blocker",
-      "Cerebral vasodilator"
+      "Calcium Channel Blocker",
+      "Cerebral Vasodilator"
     ],
     "indications": [
       "Subarachnoid hemorrhage",
@@ -10514,8 +10514,8 @@
       "Fatty Acid Metabolism Enhancers [MoA]"
     ],
     "class": [
-      "Amino acid supplement",
-      "Metabolic agent"
+      "Amino Acid Supplement",
+      "Metabolic"
     ],
     "indications": [
       "Primary carnitine deficiency",
@@ -10544,8 +10544,8 @@
       "Bile-acid Binding Activity [MoA]"
     ],
     "class": [
-      "Bile acid sequestrant",
-      "Lipid-lowering agent"
+      "Bile Acid Sequestrant",
+      "Lipid-Lowering"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -10606,12 +10606,12 @@
     ],
     "class": [
       "Antineoplastic",
-      "Platinum-based chemotherapy"
+      "Platinum-Based Chemotherapy"
     ],
     "indications": [
       "Cancer",
-      "Ovarian cancer",
-      "Lung cancer"
+      "Ovarian Cancer",
+      "Lung Cancer"
     ]
   },
   {
@@ -10639,10 +10639,10 @@
     ],
     "class": [
       "Antiviral",
-      "Nucleoside reverse transcriptase inhibitor"
+      "Nucleoside Reverse Transcriptase Inhibitor"
     ],
     "indications": [
-      "HIV infection",
+      "HIV Infection",
       "Hepatitis B",
       "AIDS"
     ]
@@ -10699,11 +10699,11 @@
     ],
     "class": [
       "NSAID",
-      "Anti-inflammatory analgesic"
+      "Anti-Inflammatory Analgesic"
     ],
     "indications": [
       "Arthritis",
-      "Chronic pain",
+      "Chronic Pain",
       "Inflammation"
     ]
   },
@@ -10730,7 +10730,7 @@
     ],
     "class": [
       "Antidote",
-      "Alcohol dehydrogenase inhibitor"
+      "Alcohol Dehydrogenase Inhibitor"
     ],
     "indications": [
       "Ethylene glycol poisoning",
@@ -10764,7 +10764,7 @@
     ],
     "class": [
       "Antiemetic",
-      "Prokinetic agent"
+      "Prokinetic"
     ],
     "indications": [
       "Nausea and vomiting",
@@ -10834,7 +10834,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Inflammation",
@@ -10864,7 +10864,7 @@
       "Organic Anion Transporter Inhibitors [MoA]"
     ],
     "class": [
-      "Uricosuric agent",
+      "Uricosuric",
       "Antigout"
     ],
     "indications": [
@@ -10926,8 +10926,8 @@
       "Vitamin D Receptor Agonists [MoA]"
     ],
     "class": [
-      "Vitamin D supplement",
-      "Fat-soluble vitamin"
+      "Vitamin D Supplement",
+      "Fat-Soluble Vitamin"
     ],
     "indications": [
       "Vitamin D deficiency",
@@ -10967,8 +10967,8 @@
       "Solvent Activity [MoA]"
     ],
     "class": [
-      "Medical supply",
-      "Essential fluid"
+      "Medical Supply",
+      "Essential Fluid"
     ],
     "indications": [
       "Hydration",
@@ -11028,12 +11028,12 @@
       "Glutamate NMDA Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Antidementia agent",
-      "NMDA receptor antagonist"
+      "Antidementia",
+      "Nmda Receptor Antagonist"
     ],
     "indications": [
       "Alzheimer disease",
-      "Cognitive decline"
+      "Cognitive Decline"
     ]
   },
   {
@@ -11064,7 +11064,7 @@
     "indications": [
       "Depression",
       "Anxiety",
-      "Chronic pain",
+      "Chronic Pain",
       "Fibromyalgia"
     ]
   },
@@ -11095,10 +11095,10 @@
     ],
     "class": [
       "Antihistamine",
-      "H1 receptor antagonist"
+      "H1 Receptor Antagonist"
     ],
     "indications": [
-      "Allergic rhinitis",
+      "Allergic Rhinitis",
       "Urticaria",
       "Allergy symptoms"
     ]
@@ -11127,7 +11127,7 @@
     ],
     "class": [
       "Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial infections",
@@ -11156,12 +11156,12 @@
       "Bile-acid Binding Activity [MoA]"
     ],
     "class": [
-      "Gallstone dissolving agent",
-      "Bile acid"
+      "Gallstone Dissolving",
+      "Bile Acid"
     ],
     "indications": [
       "Gallstones",
-      "Primary biliary cholangitis"
+      "Primary Biliary Cholangitis"
     ]
   },
   {
@@ -11187,8 +11187,8 @@
       "Glutamate Release Inhibitors [MoA]"
     ],
     "class": [
-      "Neuroprotective agent",
-      "Amyotrophic lateral sclerosis agent"
+      "Neuroprotective",
+      "Amyotrophic Lateral Sclerosis"
     ],
     "indications": [
       "ALS",
@@ -11218,10 +11218,10 @@
     ],
     "class": [
       "Antiviral",
-      "Nucleoside reverse transcriptase inhibitor"
+      "Nucleoside Reverse Transcriptase Inhibitor"
     ],
     "indications": [
-      "HIV infection",
+      "HIV Infection",
       "AIDS"
     ]
   },
@@ -11247,10 +11247,10 @@
     ],
     "class": [
       "Immunosuppressant",
-      "Interleukin receptor antagonist"
+      "Interleukin Receptor Antagonist"
     ],
     "indications": [
-      "Rheumatoid arthritis",
+      "Rheumatoid Arthritis",
       "Autoinflammatory syndromes"
     ]
   },
@@ -11276,8 +11276,8 @@
       "Epithelial Growth Factor Receptor Agonists [MoA]"
     ],
     "class": [
-      "Growth factor",
-      "Mucositis preventive agent"
+      "Growth Factor",
+      "Mucositis Preventive"
     ],
     "indications": [
       "Oral mucositis",
@@ -11306,7 +11306,7 @@
       "Kallikrein Inhibitors [MoA]"
     ],
     "class": [
-      "Plasma kallikrein inhibitor",
+      "Plasma Kallikrein Inhibitor",
       "Immunosuppressant"
     ],
     "indications": [
@@ -11399,8 +11399,8 @@
       "Dopamine Reuptake Inhibitors [MoA]"
     ],
     "class": [
-      "Wakefulness-Promoting Agent",
-      "CNS Stimulant"
+      "Wakefulness-Promoting",
+      "Cns Stimulant"
     ],
     "indications": [
       "Narcolepsy",
@@ -11622,7 +11622,7 @@
       "Monoamine Oxidase B Inhibitors [MoA]"
     ],
     "class": [
-      "Antiparkinson Agent",
+      "Antiparkinson",
       "Monoamine Oxidase Inhibitor"
     ],
     "indications": [
@@ -11839,7 +11839,7 @@
       "Serotonin 1d Receptor Agonists [MoA]"
     ],
     "class": [
-      "Antimigraine Agent",
+      "Antimigraine",
       "Serotonin Agonist"
     ],
     "indications": [
@@ -11870,7 +11870,7 @@
     ],
     "class": [
       "Antiviral",
-      "HIV Integrase Inhibitor"
+      "Hiv Integrase Inhibitor"
     ],
     "indications": [
       "HIV Infection",
@@ -11899,7 +11899,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "mTOR Inhibitor"
+      "Mtor Inhibitor"
     ],
     "indications": [
       "Renal Cell Carcinoma",
@@ -12148,7 +12148,7 @@
     ],
     "class": [
       "Antidepressant",
-      "Multimodal Serotonergic Agent"
+      "Multimodal Serotonergic"
     ],
     "indications": [
       "Major Depression",
@@ -12207,7 +12207,7 @@
       "DOPA Decarboxylase Inhibitors [MoA]"
     ],
     "class": [
-      "Antiparkinson Agent",
+      "Antiparkinson",
       "Decarboxylase Inhibitor"
     ],
     "indications": [
@@ -12272,7 +12272,7 @@
       "Serotonin 1d Receptor Agonists [MoA]"
     ],
     "class": [
-      "Antimigraine Agent",
+      "Antimigraine",
       "Serotonin Agonist"
     ],
     "indications": [
@@ -12362,8 +12362,8 @@
       "Platelet Glycoprotein IIb/IIIa Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Antiplatelet Agent",
-      "Platelet Glycoprotein IIb/IIIa Inhibitor"
+      "Antiplatelet",
+      "Platelet Glycoprotein Iib/iiia Inhibitor"
     ],
     "indications": [
       "Acute Coronary Syndrome",
@@ -12480,7 +12480,7 @@
       "Thrombopoietin Receptor Agonists [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent",
+      "Hematopoietic",
       "Thrombopoietin Receptor Agonist"
     ],
     "indications": [
@@ -12538,7 +12538,7 @@
       "Calcium Sensing Receptor Agonists [MoA]"
     ],
     "class": [
-      "Calcimimetic Agent",
+      "Calcimimetic",
       "Parathyroid Hormone Suppressor"
     ],
     "indications": [
@@ -12570,7 +12570,7 @@
     ],
     "class": [
       "Antilipemic",
-      "HMG-CoA Reductase Inhibitor"
+      "Hmg-Coa Reductase Inhibitor"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -12663,7 +12663,7 @@
     ],
     "class": [
       "Cystic Fibrosis Modulator",
-      "CFTR Potentiator"
+      "Cftr Potentiator"
     ],
     "indications": [
       "Cystic Fibrosis"
@@ -12692,7 +12692,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "Ophthalmic Agent"
+      "Ophthalmic"
     ],
     "indications": [
       "Dry Eye Disease"
@@ -12719,7 +12719,7 @@
       "Prostaglandin Receptor Agonists [MoA]"
     ],
     "class": [
-      "Antiglaucoma Agent",
+      "Antiglaucoma",
       "Prostaglandin Analog"
     ],
     "indications": [
@@ -12778,7 +12778,7 @@
       "Phosphodiesterase 5 Inhibitors [MoA]"
     ],
     "class": [
-      "Erectile Dysfunction Agent",
+      "Erectile Dysfunction",
       "Phosphodiesterase-5 Inhibitor"
     ],
     "indications": [
@@ -12902,8 +12902,8 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "Anti-anginal",
-      "Cardiovascular Agent"
+      "Anti-Anginal",
+      "Cardiovascular"
     ],
     "indications": [
       "Chronic Angina",
@@ -12965,7 +12965,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Ophthalmic Agent"
+      "Ophthalmic"
     ],
     "indications": [
       "Ocular Inflammation",
@@ -13173,7 +13173,7 @@
     ],
     "class": [
       "Bronchodilator",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Asthma",
@@ -13261,7 +13261,7 @@
       "Aluminum Complexes [MoA]"
     ],
     "class": [
-      "Gastroprotective Agent"
+      "Gastroprotective"
     ],
     "indications": [
       "Peptic Ulcer Disease",
@@ -13471,7 +13471,7 @@
     ],
     "class": [
       "Antianginal",
-      "Cardiovascular Agent"
+      "Cardiovascular"
     ],
     "indications": [
       "Chronic Angina",
@@ -13564,7 +13564,7 @@
       "Prostaglandin"
     ],
     "indications": [
-      "Labor Induction",
+      "Labor induction",
       "Cervical Ripening",
       "Abortion"
     ]
@@ -13777,7 +13777,7 @@
     ],
     "class": [
       "Antirheumatic",
-      "Chelating Agent"
+      "Chelating"
     ],
     "indications": [
       "Rheumatoid Arthritis",
@@ -13966,7 +13966,7 @@
       "Magnetic Resonance Contrast Activity [MoA]"
     ],
     "class": [
-      "Contrast Agent"
+      "Contrast"
     ],
     "indications": [
       "MRI Imaging",
@@ -13997,7 +13997,7 @@
     ],
     "class": [
       "Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial Infection",
@@ -14392,7 +14392,7 @@
     ],
     "class": [
       "Lipase Inhibitor",
-      "Antiobesity Agent"
+      "Antiobesity"
     ],
     "indications": [
       "Obesity",
@@ -14424,7 +14424,7 @@
     ],
     "class": [
       "Enzyme Inhibitor",
-      "Lysosomal Storage Disease Agent"
+      "Lysosomal Storage Disease"
     ],
     "indications": [
       "Gaucher Disease",
@@ -14611,7 +14611,7 @@
       "X-Ray Contrast Activity [MoA]"
     ],
     "class": [
-      "Radiographic Contrast Agent"
+      "Radiographic Contrast"
     ],
     "indications": [
       "Coronary Angiography",
@@ -14673,7 +14673,7 @@
       "X-Ray Contrast Activity [MoA]"
     ],
     "class": [
-      "Radiographic Contrast Agent"
+      "Radiographic Contrast"
     ],
     "indications": [
       "Coronary Angiography",
@@ -14797,7 +14797,7 @@
     ],
     "class": [
       "Growth Factor",
-      "Endocrine Agent"
+      "Endocrine"
     ],
     "indications": [
       "Insulin-like Growth Factor Deficiency",
@@ -14828,7 +14828,7 @@
     ],
     "class": [
       "Enzyme",
-      "Tissue Permeability Agent"
+      "Tissue Permeability"
     ],
     "indications": [
       "Subcutaneous Infusions",
@@ -14892,7 +14892,7 @@
     ],
     "class": [
       "Inhaled Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Asthma",
@@ -14922,7 +14922,7 @@
     ],
     "class": [
       "Adenosine Receptor Antagonist",
-      "Antiparkinson Agent"
+      "Antiparkinson"
     ],
     "indications": [
       "Parkinson's Disease",
@@ -14982,7 +14982,7 @@
     ],
     "class": [
       "Vasopressin Agonist",
-      "Hemostatic Agent"
+      "Hemostatic"
     ],
     "indications": [
       "Variceal Bleeding",
@@ -15043,12 +15043,12 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Inflammation",
       "Immunosuppression",
-      "Autoimmune Disorders"
+      "Autoimmune disorders"
     ]
   },
   {
@@ -15074,7 +15074,7 @@
     ],
     "class": [
       "Thyroid Hormone Synthesis Inhibitor",
-      "Antithyroid Agent"
+      "Antithyroid"
     ],
     "indications": [
       "Hyperthyroidism",
@@ -15139,7 +15139,7 @@
     ],
     "class": [
       "Platelet Aggregation Inhibitor",
-      "Antiplatelet Agent"
+      "Antiplatelet"
     ],
     "indications": [
       "Thromboembolism Prevention",
@@ -15234,7 +15234,7 @@
       "Penicillin-binding Protein Inhibitors [MoA]"
     ],
     "class": [
-      "Beta-lactam Antibiotic",
+      "Beta-Lactam Antibiotic",
       "Antimicrobial"
     ],
     "indications": [
@@ -15388,7 +15388,7 @@
       "Adrenergic beta-Antagonists [MoA]"
     ],
     "class": [
-      "Beta-adrenergic Blocker",
+      "Beta-Adrenergic Blocker",
       "Antihypertensive"
     ],
     "indications": [
@@ -15419,7 +15419,7 @@
     ],
     "class": [
       "Inhaled Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Allergic Rhinitis",
@@ -15480,7 +15480,7 @@
       "Cyclooxygenase Inhibitors [MoA]"
     ],
     "class": [
-      "Nonsteroidal Anti-inflammatory Drug",
+      "Nonsteroidal Anti-Inflammatory Drug",
       "Analgesic"
     ],
     "indications": [
@@ -15511,7 +15511,7 @@
       "Alkylating Activity [MoA]"
     ],
     "class": [
-      "Alkylating Agent",
+      "Alkylating",
       "Antineoplastic"
     ],
     "indications": [
@@ -15612,7 +15612,7 @@
       "Serotonin Reuptake Inhibitors [MoA]"
     ],
     "class": [
-      "SSRI Antidepressant",
+      "Ssri Antidepressant",
       "Antidepressant"
     ],
     "indications": [
@@ -15743,7 +15743,7 @@
     ],
     "class": [
       "Retinoid",
-      "Antiacne Agent"
+      "Antiacne"
     ],
     "indications": [
       "Acne",
@@ -15836,7 +15836,7 @@
       "Angiotensin 2 Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Angiotensin II Receptor Blocker",
+      "Angiotensin Ii Receptor Blocker",
       "Antihypertensive"
     ],
     "indications": [
@@ -15901,8 +15901,8 @@
       "Granulocyte Colony-stimulating Factor Receptor Agonists [MoA]"
     ],
     "class": [
-      "Colony-stimulating Factor",
-      "Hematopoietic Agent"
+      "Colony-Stimulating Factor",
+      "Hematopoietic"
     ],
     "indications": [
       "Neutropenia",
@@ -16024,7 +16024,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "Biologic DMARD"
+      "Biologic Dmard"
     ],
     "indications": [
       "Rheumatoid Arthritis",
@@ -16144,7 +16144,7 @@
     ],
     "class": [
       "Androgen Inhibitor",
-      "Urological Agent"
+      "Urological"
     ],
     "indications": [
       "Benign Prostatic Hyperplasia",
@@ -16332,12 +16332,12 @@
     ],
     "class": [
       "Tetracycline Antibiotic",
-      "Broad-spectrum Antibiotic"
+      "Broad-Spectrum Antibiotic"
     ],
     "indications": [
       "Complicated Skin Infection",
       "Complicated Intra-abdominal Infection",
-      "Community-acquired Pneumonia"
+      "Community-Acquired Pneumonia"
     ]
   },
   {
@@ -16657,7 +16657,7 @@
       "Antiemetic"
     ],
     "indications": [
-      "Chemotherapy-induced Nausea",
+      "Chemotherapy-Induced Nausea",
       "Postoperative Nausea",
       "Vomiting Prevention"
     ]
@@ -16808,8 +16808,8 @@
       "Cellular Protein Denaturants [MoA]"
     ],
     "class": [
-      "Tissue Destructive Agent",
-      "Sclerosing Agent"
+      "Tissue Destructive",
+      "Sclerosing"
     ],
     "indications": [
       "Tissue Ablation",
@@ -17030,7 +17030,7 @@
     ],
     "indications": [
       "Spinal Muscular Atrophy",
-      "Motor Neuron Disease"
+      "Motor neuron disease"
     ]
   },
   {
@@ -17057,7 +17057,7 @@
     ],
     "class": [
       "Tetracycline Antibiotic",
-      "Broad-spectrum Antibiotic"
+      "Broad-Spectrum Antibiotic"
     ],
     "indications": [
       "Bacterial Infection",
@@ -17177,7 +17177,7 @@
       "Calcitonin Gene-related Peptide Receptor Antagonists [MoA]"
     ],
     "class": [
-      "CGRP Receptor Antagonist",
+      "Cgrp Receptor Antagonist",
       "Antimigraine"
     ],
     "indications": [
@@ -17330,7 +17330,7 @@
     ],
     "class": [
       "Cell Cycle Checkpoint Inhibitor",
-      "Chemotherapy Protective Agent"
+      "Chemotherapy Protective"
     ],
     "indications": [
       "Chemotherapy-induced Neutropenia",
@@ -17456,7 +17456,7 @@
       "Microtubule Destabilizers [MoA]"
     ],
     "class": [
-      "Cytotoxic Agent",
+      "Cytotoxic",
       "Antimitotic"
     ],
     "indications": [
@@ -17523,7 +17523,7 @@
       "UGT1A1 Inducers [MoA]"
     ],
     "class": [
-      "Hematologic Agent"
+      "Hematologic"
     ],
     "indications": [
       "Pyruvate Kinase Deficiency",
@@ -17552,7 +17552,7 @@
       "Tyrosine Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -17650,7 +17650,7 @@
       "Mitogen-activated Protein Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -17682,7 +17682,7 @@
       "BRAF Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -17714,7 +17714,7 @@
       "Protein Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -17744,7 +17744,7 @@
       "Tyrosine Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -17774,7 +17774,7 @@
       "Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]"
     ],
     "class": [
-      "Antidiabetic Agent",
+      "Antidiabetic",
       "GLP-1 Receptor Agonist"
     ],
     "indications": [
@@ -17835,7 +17835,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Anti-epileptic Agent"
+      "Anti-Epileptic"
     ],
     "indications": [
       "Epilepsy",
@@ -17865,8 +17865,8 @@
       "Magnetic Resonance Contrast Activity [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "Contrast Agent"
+      "Diagnostic",
+      "Contrast"
     ],
     "indications": [
       "MRI Enhancement"
@@ -17956,7 +17956,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Hemostatic Agent"
+      "Hemostatic"
     ],
     "indications": [
       "Hemophilia A"
@@ -17985,7 +17985,7 @@
       "Granulocyte Colony-stimulating Factor Receptor Agonists [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent",
+      "Hematopoietic",
       "Growth Factor"
     ],
     "indications": [
@@ -18014,8 +18014,8 @@
       "Transforming Growth Factor-beta Superfamily Ligand Traps [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent",
-      "Erythroid Maturation Agent"
+      "Hematopoietic",
+      "Erythroid Maturation"
     ],
     "indications": [
       "Myelodysplastic Syndrome",
@@ -18075,7 +18075,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "Endometrial Cancer",
@@ -18107,7 +18107,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "Colorectal Cancer",
@@ -18169,7 +18169,7 @@
     ],
     "class": [
       "Statin",
-      "Lipid-lowering Agent"
+      "Lipid-Lowering"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -18284,7 +18284,7 @@
     ],
     "class": [
       "Antimetabolite",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "T-cell Lymphoma",
@@ -18312,7 +18312,7 @@
       "Growth Hormone-releasing Hormone Receptor Agonists [MoA]"
     ],
     "class": [
-      "Growth Hormone-releasing Hormone Agonist"
+      "Growth Hormone-Releasing Hormone Agonist"
     ],
     "indications": [
       "HIV-associated Lipodystrophy"
@@ -18345,10 +18345,10 @@
     ],
     "class": [
       "Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
-      "Bacterial Infections",
+      "Bacterial infections",
       "Streptococcal Infection",
       "Meningitis"
     ]
@@ -18380,7 +18380,7 @@
     ],
     "indications": [
       "Tuberculosis",
-      "Bacterial Infections"
+      "Bacterial infections"
     ]
   },
   {
@@ -18409,7 +18409,7 @@
       "DNA Damage-inducing Agents [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Antibiotic"
     ],
     "indications": [
@@ -18445,7 +18445,7 @@
       "Cephalosporin"
     ],
     "indications": [
-      "Bacterial Infections",
+      "Bacterial infections",
       "Meningitis",
       "Sepsis"
     ]
@@ -18503,7 +18503,7 @@
     ],
     "class": [
       "Androgen Antagonist",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "Prostate Cancer"
@@ -18532,7 +18532,7 @@
     ],
     "class": [
       "Antimetabolite",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "Colorectal Cancer"
@@ -18594,7 +18594,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Anti-epileptic Agent"
+      "Anti-Epileptic"
     ],
     "indications": [
       "Epilepsy",
@@ -18806,7 +18806,7 @@
       "Microtubule Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Vinca Alkaloid"
     ],
     "indications": [
@@ -18836,7 +18836,7 @@
     ],
     "class": [
       "Retinoid",
-      "Dermatologic Agent"
+      "Dermatologic"
     ],
     "indications": [
       "Psoriasis"
@@ -18864,7 +18864,7 @@
       "Asparagine-specific Enzyme Activity [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Enzyme"
     ],
     "indications": [
@@ -18893,7 +18893,7 @@
     ],
     "class": [
       "Growth Factor",
-      "Wound Healing Agent"
+      "Wound Healing"
     ],
     "indications": [
       "Diabetic Foot Ulcer"
@@ -18952,8 +18952,8 @@
       "Vascular Endothelial Growth Factor Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
-      "VEGF Inhibitor"
+      "Antineoplastic",
+      "Vegf Inhibitor"
     ],
     "indications": [
       "Age-related Macular Degeneration",
@@ -18982,8 +18982,8 @@
       "Hepatic Uptake Activity [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "Hepatic Imaging Agent"
+      "Diagnostic",
+      "Hepatic Imaging"
     ],
     "indications": [
       "Liver Imaging"
@@ -19071,7 +19071,7 @@
     ],
     "class": [
       "Norepinephrine Reuptake Inhibitor",
-      "ADHD Agent"
+      "Adhd"
     ],
     "indications": [
       "Attention-Deficit/Hyperactivity Disorder"
@@ -19104,7 +19104,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "AMPA Receptor Antagonist"
+      "Ampa Receptor Antagonist"
     ],
     "indications": [
       "Epilepsy",
@@ -19644,7 +19644,7 @@
     ],
     "class": [
       "Statin",
-      "HMG-CoA Reductase Inhibitor"
+      "Hmg-Coa Reductase Inhibitor"
     ],
     "indications": [
       "Hyperlipidemia",
@@ -19701,7 +19701,7 @@
       "Nicotinic Acetylcholine Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Neuromuscular Blocking Agent"
+      "Neuromuscular Blocking"
     ],
     "indications": [
       "Anesthesia Adjunct",
@@ -19730,7 +19730,7 @@
       "Magnetic Resonance Contrast Activity [MoA]"
     ],
     "class": [
-      "Contrast Agent",
+      "Contrast",
       "Imaging"
     ],
     "indications": [
@@ -19963,7 +19963,7 @@
       "Blister Formation Induction [MoA]"
     ],
     "class": [
-      "Wart Removal Agent"
+      "Wart Removal"
     ],
     "indications": [
       "Warts",
@@ -20050,7 +20050,7 @@
       "5-HT3 Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Serotonin 5-HT3 Antagonist"
+      "Serotonin 5-Ht3 Antagonist"
     ],
     "indications": [
       "Irritable Bowel Syndrome"
@@ -20346,7 +20346,7 @@
       "Gene Expression Inhibitors [MoA]"
     ],
     "class": [
-      "RNA-targeting Oligonucleotide"
+      "Rna-Targeting Oligonucleotide"
     ],
     "indications": [
       "Primary Hyperoxaluria Type 1"
@@ -20400,7 +20400,7 @@
       "GABA A Receptor Positive Modulators [MoA]"
     ],
     "class": [
-      "GABA-A Receptor Modulator",
+      "Gaba-A Receptor Modulator",
       "Neuroactive Steroid"
     ],
     "indications": [
@@ -20429,7 +20429,7 @@
       "Angiotensin II Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Angiotensin II Receptor Antagonist",
+      "Angiotensin Ii Receptor Antagonist",
       "Antihypertensive"
     ],
     "indications": [
@@ -20460,7 +20460,7 @@
     ],
     "class": [
       "Sympathomimetic",
-      "Inotropic Agent"
+      "Inotropic"
     ],
     "indications": [
       "Cardiac Insufficiency",
@@ -20521,7 +20521,7 @@
       "Antioxidants [MoA]"
     ],
     "class": [
-      "Neuroprotective Agent",
+      "Neuroprotective",
       "Antioxidant"
     ],
     "indications": [
@@ -20551,7 +20551,7 @@
       "Serotonin 5-HT4 Receptor Agonists [MoA]"
     ],
     "class": [
-      "Prokinetic Agent",
+      "Prokinetic",
       "Gastrointestinal Motility Enhancer"
     ],
     "indications": [
@@ -20705,7 +20705,7 @@
       "Vascular Endothelial Growth Factor Inhibitors [MoA]"
     ],
     "class": [
-      "Antineovascularization Agent",
+      "Antineovascularization",
       "Ophthalmologic"
     ],
     "indications": [
@@ -20769,7 +20769,7 @@
     ],
     "class": [
       "Tissue Factor Pathway Inhibitor Antagonist",
-      "Hemostatic Agent"
+      "Hemostatic"
     ],
     "indications": [
       "Hemophilia A",
@@ -20799,7 +20799,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Chemotherapy Agent"
+      "Chemotherapy"
     ],
     "indications": [
       "Bladder Cancer",
@@ -20827,7 +20827,7 @@
       "Dopamine Agonists [MoA]"
     ],
     "class": [
-      "Antiparkinsonian Agent",
+      "Antiparkinsonian",
       "Dopamine Agonist"
     ],
     "indications": [
@@ -20952,7 +20952,7 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "Sexual Dysfunction Agent"
+      "Sexual Dysfunction"
     ],
     "indications": [
       "Hypoactive Sexual Desire Disorder",
@@ -20981,7 +20981,7 @@
       "Penicillin-type Antibacterials [MoA]"
     ],
     "class": [
-      "Beta-lactam Antibiotic",
+      "Beta-Lactam Antibiotic",
       "Penicillin"
     ],
     "indications": [
@@ -21016,7 +21016,7 @@
       "Monobactam Antibacterials [MoA]"
     ],
     "class": [
-      "Beta-lactam Antibiotic",
+      "Beta-Lactam Antibiotic",
       "Monobactam"
     ],
     "indications": [
@@ -21053,7 +21053,7 @@
     ],
     "class": [
       "Cephalosporin Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial Infection",
@@ -21085,7 +21085,7 @@
     ],
     "class": [
       "Cephalosporin Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial Infection",
@@ -21116,7 +21116,7 @@
     ],
     "class": [
       "Cephalosporin Antibiotic",
-      "Beta-lactam"
+      "Beta-Lactam"
     ],
     "indications": [
       "Bacterial Infection",
@@ -21274,7 +21274,7 @@
       "Alpha-1 Adrenergic Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Alpha-adrenergic Antagonist",
+      "Alpha-Adrenergic Antagonist",
       "Antihypertensive"
     ],
     "indications": [
@@ -21334,7 +21334,7 @@
       "Osmotic Agents [MoA]"
     ],
     "class": [
-      "Osmotic Agent",
+      "Osmotic",
       "Surgical Irrigation Solution"
     ],
     "indications": [
@@ -21458,7 +21458,7 @@
     ],
     "class": [
       "Histamine-2 Receptor Antagonist",
-      "Antiulcer Agent"
+      "Antiulcer"
     ],
     "indications": [
       "Peptic Ulcer Disease",
@@ -21645,8 +21645,8 @@
       "PCSK9 Inhibitors [MoA]"
     ],
     "class": [
-      "PCSK9 Inhibitor",
-      "Lipid-lowering Agent"
+      "Pcsk9 Inhibitor",
+      "Lipid-Lowering"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -21736,7 +21736,7 @@
     ],
     "class": [
       "Guanylate Cyclase-C Agonist",
-      "Prokinetic Agent"
+      "Prokinetic"
     ],
     "indications": [
       "Irritable Bowel Syndrome with Constipation",
@@ -21828,7 +21828,7 @@
       "Dopamine Antagonist"
     ],
     "indications": [
-      "Tourette Syndrome",
+      "Tourette syndrome",
       "Psychosis",
       "Movement Disorder"
     ]
@@ -21854,7 +21854,7 @@
       "Alpha-1 Adrenergic Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Alpha-adrenergic Antagonist",
+      "Alpha-Adrenergic Antagonist",
       "Ophthalmologic"
     ],
     "indications": [
@@ -21885,7 +21885,7 @@
       "Sclerosing Activity [MoA]"
     ],
     "class": [
-      "Sclerosing Agent",
+      "Sclerosing",
       "Hemostatic"
     ],
     "indications": [
@@ -21915,8 +21915,8 @@
       "Sclerosing Agents [MoA]"
     ],
     "class": [
-      "Sclerosing Agent",
-      "Pleurodesis Agent"
+      "Sclerosing",
+      "Pleurodesis"
     ],
     "indications": [
       "Malignant Pleural Effusion",
@@ -21983,7 +21983,7 @@
       "Antineoplastic"
     ],
     "indications": [
-      "Non-small Cell Lung Cancer",
+      "Non-Small Cell Lung Cancer",
       "Epidermal Growth Factor Receptor Mutation",
       "Lung Cancer"
     ]
@@ -22041,7 +22041,7 @@
     ],
     "class": [
       "Gonadotropin-Releasing Hormone Agonist",
-      "Hormonal Agent"
+      "Hormonal"
     ],
     "indications": [
       "Prostate Cancer",
@@ -22101,7 +22101,7 @@
     ],
     "class": [
       "Ophthalmic",
-      "Glaucoma Agent"
+      "Glaucoma"
     ],
     "indications": [
       "Glaucoma",
@@ -22244,8 +22244,8 @@
       "Norepinephrine Uptake Inhibitors [MoA]"
     ],
     "class": [
-      "Wakefulness-Promoting Agent",
-      "CNS Stimulant"
+      "Wakefulness-Promoting",
+      "Cns Stimulant"
     ],
     "indications": [
       "Narcolepsy",
@@ -22275,7 +22275,7 @@
     ],
     "class": [
       "Antitussive",
-      "Non-narcotic"
+      "Non-Narcotic"
     ],
     "indications": [
       "Cough"
@@ -22332,7 +22332,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "PARP Inhibitor"
+      "Parp Inhibitor"
     ],
     "indications": [
       "Breast Cancer",
@@ -22450,7 +22450,7 @@
       "Medium-chain Triglyceride Metabolism [MoA]"
     ],
     "class": [
-      "Metabolic Agent",
+      "Metabolic",
       "Nutritional Supplement"
     ],
     "indications": [
@@ -22568,7 +22568,7 @@
       "Methylating Activity [MoA]"
     ],
     "class": [
-      "Metabolic Agent"
+      "Metabolic"
     ],
     "indications": [
       "Homocystinuria",
@@ -22629,7 +22629,7 @@
     ],
     "class": [
       "Antianemic",
-      "Erythropoiesis Agent"
+      "Erythropoiesis"
     ],
     "indications": [
       "Anemia",
@@ -22659,7 +22659,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "HIF Inhibitor"
+      "Hif Inhibitor"
     ],
     "indications": [
       "Renal Cell Carcinoma"
@@ -22874,7 +22874,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "IDH Inhibitor"
+      "Idh Inhibitor"
     ],
     "indications": [
       "Glioma",
@@ -23120,7 +23120,7 @@
       "Angiopoietin-like 3 Inhibitors [MoA]"
     ],
     "class": [
-      "Lipid-lowering Agent",
+      "Lipid-Lowering",
       "Monoclonal Antibody"
     ],
     "indications": [
@@ -23186,7 +23186,7 @@
     ],
     "class": [
       "Vasodilator",
-      "Prostacyclin Agent"
+      "Prostacyclin"
     ],
     "indications": [
       "Pulmonary Arterial Hypertension"
@@ -23215,7 +23215,7 @@
     ],
     "class": [
       "Gonadotropin",
-      "Fertility Agent"
+      "Fertility"
     ],
     "indications": [
       "Infertility",
@@ -23395,7 +23395,7 @@
       "Buffer Activity [MoA]"
     ],
     "class": [
-      "Alkalinizing Agent",
+      "Alkalinizing",
       "Buffer"
     ],
     "indications": [
@@ -23425,7 +23425,7 @@
     ],
     "class": [
       "Analgesic",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Pain",
@@ -23486,7 +23486,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Alkylating Agent"
+      "Alkylating"
     ],
     "indications": [
       "Brain Tumor",
@@ -23632,7 +23632,7 @@
       "Anthrax Protective Antigen-directed Antibody Interactions [MoA]"
     ],
     "class": [
-      "Immunologic Agent",
+      "Immunologic",
       "Anthrax Treatment"
     ],
     "indications": [
@@ -23663,7 +23663,7 @@
       "Leptin Receptor Agonists [MoA]"
     ],
     "class": [
-      "Metabolic Agent",
+      "Metabolic",
       "Hormone Analog"
     ],
     "indications": [
@@ -23791,7 +23791,7 @@
       "Photoabsorption [MoA]"
     ],
     "class": [
-      "Dermatologic Agent",
+      "Dermatologic",
       "Photochemotherapy"
     ],
     "indications": [
@@ -23853,7 +23853,7 @@
     ],
     "class": [
       "Antifungal",
-      "Dermatologic Agent"
+      "Dermatologic"
     ],
     "indications": [
       "Fungal Skin Infection",
@@ -23946,7 +23946,7 @@
     ],
     "class": [
       "Vasodilator",
-      "Pulmonary Hypertension Agent"
+      "Pulmonary Hypertension"
     ],
     "indications": [
       "Pulmonary Hypertension",
@@ -24038,7 +24038,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Alkylating Agent"
+      "Alkylating"
     ],
     "indications": [
       "Testicular Cancer",
@@ -24103,7 +24103,7 @@
     ],
     "indications": [
       "Breast Cancer",
-      "HER2-Positive Cancer",
+      "HER2-positive Cancer",
       "Early-Stage Breast Cancer"
     ]
   },
@@ -24165,7 +24165,7 @@
       "Parathyroid Hormone-Related Peptide Receptor Agonists [MoA]"
     ],
     "class": [
-      "Bone Metabolism Agent",
+      "Bone Metabolism",
       "Hormone Analog"
     ],
     "indications": [
@@ -24196,7 +24196,7 @@
     ],
     "class": [
       "Laxative",
-      "Gastrointestinal Agent"
+      "Gastrointestinal"
     ],
     "indications": [
       "Chronic Idiopathic Constipation",
@@ -24226,7 +24226,7 @@
     ],
     "class": [
       "Opioid Antagonist",
-      "Gastrointestinal Agent"
+      "Gastrointestinal"
     ],
     "indications": [
       "Opioid-Induced Constipation",
@@ -24255,7 +24255,7 @@
     ],
     "class": [
       "Antipsychotic",
-      "Psychotropic Agent"
+      "Psychotropic"
     ],
     "indications": [
       "Schizophrenia",
@@ -24286,7 +24286,7 @@
       "Lead Chelating Activity [MoA]"
     ],
     "class": [
-      "Chelating Agent",
+      "Chelating",
       "Antidote"
     ],
     "indications": [
@@ -24466,7 +24466,7 @@
       "Androgen Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Dermatologic Agent",
+      "Dermatologic",
       "Androgen Antagonist"
     ],
     "indications": [
@@ -24651,12 +24651,12 @@
       "Complement Inhibitors [MoA]"
     ],
     "class": [
-      "Immunologic Agent",
+      "Immunologic",
       "Complement Inhibitor"
     ],
     "indications": [
       "Paroxysmal Nocturnal Hemoglobinuria",
-      "Age-Related Macular Degeneration",
+      "Age-related Macular Degeneration",
       "Hemolytic Anemia"
     ]
   },
@@ -24681,7 +24681,7 @@
       "Aryl Hydrocarbon Receptor Agonists [MoA]"
     ],
     "class": [
-      "Dermatologic Agent",
+      "Dermatologic",
       "Immunomodulator"
     ],
     "indications": [
@@ -24750,7 +24750,7 @@
       "Kinase Inhibitor"
     ],
     "indications": [
-      "B-Cell Malignancy",
+      "B-cell Malignancy",
       "Chronic Lymphocytic Leukemia",
       "Lymphoma"
     ]
@@ -24810,7 +24810,7 @@
     ],
     "class": [
       "Antiplatelet",
-      "Cardiovascular Agent"
+      "Cardiovascular"
     ],
     "indications": [
       "Acute Coronary Syndrome",
@@ -24960,7 +24960,7 @@
       "Factor B Inhibitors [MoA]"
     ],
     "class": [
-      "Immunologic Agent",
+      "Immunologic",
       "Complement Inhibitor"
     ],
     "indications": [
@@ -24990,7 +24990,7 @@
       "Somatostatin Receptor Targeting [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
+      "Diagnostic",
       "Radiopharmaceutical"
     ],
     "indications": [
@@ -25021,7 +25021,7 @@
       "Clostridium difficile Toxin Neutralization [MoA]"
     ],
     "class": [
-      "Immunologic Agent",
+      "Immunologic",
       "Monoclonal Antibody"
     ],
     "indications": [
@@ -25083,7 +25083,7 @@
       "Complement Inhibitors [MoA]"
     ],
     "class": [
-      "Immunologic Agent",
+      "Immunologic",
       "Monoclonal Antibody"
     ],
     "indications": [
@@ -25211,7 +25211,7 @@
     ],
     "class": [
       "Retinoid",
-      "Topical Agent",
+      "Topical",
       "Dermatological"
     ],
     "indications": [
@@ -25273,7 +25273,7 @@
     ],
     "class": [
       "Hormone",
-      "Fertility Agent",
+      "Fertility",
       "Gonadotropin"
     ],
     "indications": [
@@ -25304,8 +25304,8 @@
     ],
     "class": [
       "NSAID",
-      "Ophthalmic Agent",
-      "Anti-inflammatory"
+      "Ophthalmic",
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Ocular Pain",
@@ -25365,7 +25365,7 @@
       "Dyes [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
+      "Diagnostic",
       "Ophthalmic Dye",
       "Imaging"
     ],
@@ -25396,7 +25396,7 @@
       "Encapsulating Agents [MoA]"
     ],
     "class": [
-      "Neuromuscular Reversal Agent",
+      "Neuromuscular Reversal",
       "Anesthetic Adjunct"
     ],
     "indications": [
@@ -25457,7 +25457,7 @@
     "class": [
       "Pediculicide",
       "Antiparasitic",
-      "Topical Agent"
+      "Topical"
     ],
     "indications": [
       "Head Lice",
@@ -25518,7 +25518,7 @@
     ],
     "class": [
       "Antifungal",
-      "Oral Agent"
+      "Oral"
     ],
     "indications": [
       "Fungal Infection",
@@ -25547,7 +25547,7 @@
       "Phosphodiesterase Inhibitors [MoA]"
     ],
     "class": [
-      "Rheological Agent",
+      "Rheological",
       "Cardiovascular",
       "Blood Flow Enhancer"
     ],
@@ -25642,7 +25642,7 @@
     "class": [
       "Antiparasitic",
       "Scabicide",
-      "Topical Agent"
+      "Topical"
     ],
     "indications": [
       "Scabies",
@@ -25671,7 +25671,7 @@
     ],
     "class": [
       "Selective Estrogen Receptor Modulator",
-      "Bone Agent",
+      "Bone",
       "Hormonal"
     ],
     "indications": [
@@ -25701,7 +25701,7 @@
       "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
     ],
     "class": [
-      "TNF Inhibitor",
+      "Tnf Inhibitor",
       "Immunosuppressant",
       "Biologic"
     ],
@@ -25765,7 +25765,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "CD20 Inhibitor",
+      "Cd20 Inhibitor",
       "Antineoplastic"
     ],
     "indications": [
@@ -25886,7 +25886,7 @@
       "Prostaglandin F Receptor Agonists [MoA]"
     ],
     "class": [
-      "Ophthalmic Agent",
+      "Ophthalmic",
       "Prostaglandin Analog",
       "Antiglaucoma"
     ],
@@ -25916,8 +25916,8 @@
       "Glucagon-like Peptide-2 (GLP-2) Agonists [MoA]"
     ],
     "class": [
-      "GLP-2 Agonist",
-      "Gastrointestinal Agent"
+      "Glp-2 Agonist",
+      "Gastrointestinal"
     ],
     "indications": [
       "Short Bowel Syndrome"
@@ -25946,7 +25946,7 @@
     "class": [
       "Endothelin Receptor Antagonist",
       "Cardiovascular",
-      "Pulmonary Hypertension Agent"
+      "Pulmonary Hypertension"
     ],
     "indications": [
       "Pulmonary Arterial Hypertension"
@@ -26034,7 +26034,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "Multiple Sclerosis Agent"
+      "Multiple Sclerosis"
     ],
     "indications": [
       "Multiple Sclerosis",
@@ -26094,7 +26094,7 @@
     "class": [
       "Bile Acid Sequestrant",
       "Antilipidemic",
-      "Gastrointestinal Agent"
+      "Gastrointestinal"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -26123,8 +26123,8 @@
     ],
     "class": [
       "Corticosteroid",
-      "Nasal Agent",
-      "Anti-inflammatory"
+      "Nasal",
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Allergic Rhinitis",
@@ -26153,7 +26153,7 @@
     ],
     "class": [
       "Vitamin D Analog",
-      "Mineral Agent"
+      "Mineral"
     ],
     "indications": [
       "Secondary Hyperparathyroidism",
@@ -26182,7 +26182,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "GABA Reuptake Inhibitor",
+      "Gaba Reuptake Inhibitor",
       "Antiepileptic"
     ],
     "indications": [
@@ -26241,9 +26241,9 @@
       "Poly(ADP-ribose) Polymerase Inhibitors [MoA]"
     ],
     "class": [
-      "PARP Inhibitor",
+      "Parp Inhibitor",
       "Antineoplastic",
-      "DNA Repair Inhibitor"
+      "Dna Repair Inhibitor"
     ],
     "indications": [
       "Ovarian Cancer",
@@ -26272,8 +26272,8 @@
       "Vesicular Monoamine Transporter 2 Inhibitors [MoA]"
     ],
     "class": [
-      "Movement Disorder Agent",
-      "VMAT2 Inhibitor",
+      "Movement Disorder",
+      "Vmat2 Inhibitor",
       "Neurological"
     ],
     "indications": [
@@ -26302,8 +26302,8 @@
     ],
     "class": [
       "Antiarrhythmic",
-      "Cardiac Agent",
-      "Class IC Antiarrhythmic"
+      "Cardiac",
+      "Class Ic Antiarrhythmic"
     ],
     "indications": [
       "Arrhythmia",
@@ -26333,7 +26333,7 @@
     ],
     "class": [
       "Melanocortin Receptor Agonist",
-      "Sexual Dysfunction Agent"
+      "Sexual Dysfunction"
     ],
     "indications": [
       "Female Sexual Desire Disorder"
@@ -26360,7 +26360,7 @@
       "Potassium Channel Openers [MoA]"
     ],
     "class": [
-      "Hyperglycemic Agent",
+      "Hyperglycemic",
       "Vasodilator",
       "Cardiovascular"
     ],
@@ -26455,8 +26455,8 @@
     ],
     "class": [
       "Corticosteroid",
-      "Topical Agent",
-      "Anti-inflammatory"
+      "Topical",
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Dermatitis",
@@ -26491,7 +26491,7 @@
     ],
     "indications": [
       "Lung Cancer",
-      "Non-small Cell Lung Cancer"
+      "Non-Small Cell Lung Cancer"
     ]
   },
   {
@@ -26516,9 +26516,9 @@
       "Janus Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "JAK Inhibitor",
+      "Jak Inhibitor",
       "Immunosuppressant",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Rheumatoid Arthritis",
@@ -26551,7 +26551,7 @@
     "class": [
       "Kinase Inhibitor",
       "Antineoplastic",
-      "CDK Inhibitor"
+      "Cdk Inhibitor"
     ],
     "indications": [
       "Breast Cancer",
@@ -26609,9 +26609,9 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "JAK Inhibitor",
+      "Jak Inhibitor",
       "Immunosuppressant",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Atopic Dermatitis",
@@ -26646,7 +26646,7 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Protein Synthesis Inhibitor"
     ],
     "indications": [
@@ -26707,7 +26707,7 @@
       "KRAS Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -26736,8 +26736,8 @@
       "Alkylating Agents [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
-      "Alkylating Agent"
+      "Anticancer",
+      "Alkylating"
     ],
     "indications": [
       "Hematopoietic Stem Cell Transplant",
@@ -26766,7 +26766,7 @@
     ],
     "class": [
       "Genetic Disorder Treatment",
-      "RNA Interference Agent"
+      "RNA Interference"
     ],
     "indications": [
       "Transthyretin Amyloidosis",
@@ -26852,8 +26852,8 @@
       "Magnetic Resonance Imaging Contrast Agents [MoA]"
     ],
     "class": [
-      "Contrast Agent",
-      "Diagnostic Agent"
+      "Contrast",
+      "Diagnostic"
     ],
     "indications": [
       "MRI Contrast",
@@ -26881,7 +26881,7 @@
       "FLT3 Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -26943,7 +26943,7 @@
       "Tropomyosin Receptor Tyrosine Kinase C Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -27097,7 +27097,7 @@
       "Monoamine Oxidase-B Inhibitors [MoA]"
     ],
     "class": [
-      "Antiparkinson Agent",
+      "Antiparkinson",
       "Monoamine Oxidase Inhibitor"
     ],
     "indications": [
@@ -27126,7 +27126,7 @@
       "Gonadotropin-Releasing Hormone Antagonists [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Gonadotropin-Releasing Hormone Antagonist"
     ],
     "indications": [
@@ -27155,11 +27155,11 @@
       "Histone Deacetylase Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Histone Deacetylase Inhibitor"
     ],
     "indications": [
-      "Cutaneous T-cell Lymphoma",
+      "Cutaneous T-Cell Lymphoma",
       "Peripheral T-cell Lymphoma"
     ]
   },
@@ -27337,7 +27337,7 @@
       "Cannabinoid"
     ],
     "indications": [
-      "Chemotherapy-induced Nausea",
+      "Chemotherapy-Induced Nausea",
       "Vomiting",
       "Cancer"
     ]
@@ -27394,7 +27394,7 @@
       "Serotonin 5HT1B/1D Receptor Agonists [MoA]"
     ],
     "class": [
-      "Antimigraine Agent",
+      "Antimigraine",
       "Serotonin Agonist"
     ],
     "indications": [
@@ -27453,7 +27453,7 @@
       "Granulocyte-Macrophage Colony-Stimulating Factor Agonists [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent",
+      "Hematopoietic",
       "Cytokine"
     ],
     "indications": [
@@ -27511,7 +27511,7 @@
       "Fibrinolytic Agents [MoA]"
     ],
     "class": [
-      "Thrombolytic Agent",
+      "Thrombolytic",
       "Fibrinolytic"
     ],
     "indications": [
@@ -27571,7 +27571,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "Colorectal Cancer",
@@ -27664,7 +27664,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Antineoplastic Agent"
+      "Antineoplastic"
     ],
     "indications": [
       "Non-Small Cell Lung Cancer",
@@ -27694,7 +27694,7 @@
     ],
     "class": [
       "Monoclonal Antibody",
-      "Lipid-Lowering Agent"
+      "Lipid-Lowering"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -27783,7 +27783,7 @@
       "alpha Glucosidase Inhibitors [MoA]"
     ],
     "class": [
-      "Antidiabetic Agent",
+      "Antidiabetic",
       "Alpha-Glucosidase Inhibitor"
     ],
     "indications": [
@@ -27820,7 +27820,7 @@
     ],
     "class": [
       "Antiviral",
-      "CYP3A Inhibitor"
+      "Cyp3a Inhibitor"
     ],
     "indications": [
       "HIV Infection",
@@ -27877,7 +27877,7 @@
       "alpha Glucosidase Inhibitors [MoA]"
     ],
     "class": [
-      "Antidiabetic Agent",
+      "Antidiabetic",
       "Alpha-Glucosidase Inhibitor"
     ],
     "indications": [
@@ -27907,7 +27907,7 @@
       "Cereblon Modulators [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Immunomodulator"
     ],
     "indications": [
@@ -27967,7 +27967,7 @@
       "Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -27997,7 +27997,7 @@
       "Nucleoside Reverse Transcriptase Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Purine Analog"
     ],
     "indications": [
@@ -28027,7 +28027,7 @@
       "Mitogen-Activated Protein Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -28087,12 +28087,12 @@
       "17-Alpha-Hydroxylase/17,20-Lyase Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
+      "Anticancer",
       "Androgen Inhibitor"
     ],
     "indications": [
       "Prostate Cancer",
-      "Castration-Resistant Prostate Cancer"
+      "Castration-resistant Prostate Cancer"
     ]
   },
   {
@@ -28116,8 +28116,8 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "Anticancer Agent",
-      "BCL-2 Inhibitor"
+      "Anticancer",
+      "Bcl-2 Inhibitor"
     ],
     "indications": [
       "Chronic Lymphocytic Leukemia",
@@ -28267,8 +28267,8 @@
       "Cholecystokinin Receptor Agonists [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "GI Stimulant"
+      "Diagnostic",
+      "Gi Stimulant"
     ],
     "indications": [
       "Gallbladder Function Test",
@@ -28298,7 +28298,7 @@
     ],
     "class": [
       "Antimigraine",
-      "5-HT Receptor Agonist"
+      "5-Ht Receptor Agonist"
     ],
     "indications": [
       "Migraine",
@@ -28446,7 +28446,7 @@
     ],
     "class": [
       "Laxative",
-      "GI Stimulant"
+      "Gi Stimulant"
     ],
     "indications": [
       "Constipation",
@@ -28475,7 +28475,7 @@
     ],
     "class": [
       "Cardiovascular",
-      "Heart Failure Agent"
+      "Heart Failure"
     ],
     "indications": [
       "Heart Failure",
@@ -28623,7 +28623,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "JAK Inhibitor"
+      "Jak Inhibitor"
     ],
     "indications": [
       "Alopecia Areata",
@@ -28711,7 +28711,7 @@
     ],
     "class": [
       "Antimicrobial",
-      "Topical Agent"
+      "Topical"
     ],
     "indications": [
       "Diabetic Foot Ulcer",
@@ -28771,7 +28771,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Anti-VEGF Antibody"
+      "Anti-Vegf Antibody"
     ],
     "indications": [
       "Macular Degeneration",
@@ -28830,7 +28830,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Alkylating Agent"
+      "Alkylating"
     ],
     "indications": [
       "Lymphoma",
@@ -28889,7 +28889,7 @@
     ],
     "class": [
       "Analgesic",
-      "Topical Agent"
+      "Topical"
     ],
     "indications": [
       "Neuropathic Pain",
@@ -28980,7 +28980,7 @@
     ],
     "class": [
       "Endocrine Modifier",
-      "Diagnostic Agent"
+      "Diagnostic"
     ],
     "indications": [
       "Cushing Syndrome",
@@ -29160,7 +29160,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "TNF Antagonist"
+      "Tnf Antagonist"
     ],
     "indications": [
       "Rheumatoid Arthritis",
@@ -29225,7 +29225,7 @@
     ],
     "indications": [
       "Chronic Lymphocytic Leukemia",
-      "B-Cell Lymphoma"
+      "B-cell Lymphoma"
     ]
   },
   {
@@ -29251,11 +29251,11 @@
     ],
     "class": [
       "Antineoplastic",
-      "HER2 Antagonist"
+      "Her2 Antagonist"
     ],
     "indications": [
       "Breast Cancer",
-      "HER2-Positive Cancer"
+      "HER2-positive Cancer"
     ]
   },
   {
@@ -29281,7 +29281,7 @@
     ],
     "class": [
       "Antidiabetic",
-      "GLP-1 Agonist"
+      "Glp-1 Agonist"
     ],
     "indications": [
       "Type 2 Diabetes",
@@ -29320,7 +29320,7 @@
       "X-Ray Contrast Activity [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
+      "Diagnostic",
       "Contrast Medium"
     ],
     "indications": [
@@ -29351,7 +29351,7 @@
       "Adrenocorticotropic Hormone Receptor Agonists [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
+      "Diagnostic",
       "Hormone"
     ],
     "indications": [
@@ -29500,7 +29500,7 @@
       "Histone Deacetylase Inhibitor"
     ],
     "indications": [
-      "Peripheral T-Cell Lymphoma",
+      "Peripheral T-cell Lymphoma",
       "PTCL"
     ]
   },
@@ -29526,7 +29526,7 @@
     ],
     "class": [
       "Antiemetic",
-      "NK1 Antagonist"
+      "Nk1 Antagonist"
     ],
     "indications": [
       "Chemotherapy-Induced Nausea",
@@ -29585,7 +29585,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "PARP Inhibitor"
+      "Parp Inhibitor"
     ],
     "indications": [
       "Ovarian Cancer",
@@ -29614,7 +29614,7 @@
     ],
     "class": [
       "Immunosuppressant",
-      "S1P Modulator"
+      "S1p Modulator"
     ],
     "indications": [
       "Multiple Sclerosis",
@@ -29769,7 +29769,7 @@
       "X-Ray Contrast Activity [MoA]"
     ],
     "class": [
-      "Radiographic Contrast Agent"
+      "Radiographic Contrast"
     ],
     "indications": [
       "Radiographic Imaging",
@@ -30003,7 +30003,7 @@
     ],
     "class": [
       "Antihypertensive",
-      "Renal Protective Agent"
+      "Renal Protective"
     ],
     "indications": [
       "IgA Nephropathy",
@@ -30031,7 +30031,7 @@
       "Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitors [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent"
+      "Hematopoietic"
     ],
     "indications": [
       "Anemia",
@@ -30061,7 +30061,7 @@
       "Organic Anion Transporting Polypeptide 1B3 Inhibitors [MoA]"
     ],
     "class": [
-      "Neurological Agent"
+      "Neurological"
     ],
     "indications": [
       "Rett Syndrome"
@@ -30120,7 +30120,7 @@
       "Thyroid Hormone Receptor beta Agonists [MoA]"
     ],
     "class": [
-      "Metabolic Agent"
+      "Metabolic"
     ],
     "indications": [
       "Non-alcoholic Fatty Liver Disease",
@@ -30151,7 +30151,7 @@
     ],
     "class": [
       "Antineoplastic",
-      "Epigenetic Agent"
+      "Epigenetic"
     ],
     "indications": [
       "Duchenne Muscular Dystrophy"
@@ -30265,7 +30265,7 @@
       "Antisense Oligonucleotides [MoA]"
     ],
     "class": [
-      "Hemostatic Agent",
+      "Hemostatic",
       "Antisense Oligonucleotide"
     ],
     "indications": [
@@ -30767,8 +30767,8 @@
       "Tissue Imaging Agents [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "Imaging Agent"
+      "Diagnostic",
+      "Imaging"
     ],
     "indications": [
       "Lymph Node Mapping",
@@ -30943,7 +30943,7 @@
       "Phosphodiesterase 4 Inhibitors [MoA]"
     ],
     "class": [
-      "Anti-inflammatory",
+      "Anti-Inflammatory",
       "Immunosuppressant"
     ],
     "indications": [
@@ -31030,7 +31030,7 @@
       "Natriuretic Peptide Receptor Agonists [MoA]"
     ],
     "class": [
-      "Renal Agent",
+      "Renal",
       "Peptide Hormone"
     ],
     "indications": [
@@ -31086,7 +31086,7 @@
       "Gonadotropin-Releasing Hormone Receptor Antagonists [MoA]"
     ],
     "class": [
-      "Reproductive Agent"
+      "Reproductive"
     ],
     "indications": [
       "Endometriosis"
@@ -31113,7 +31113,7 @@
       "Thrombopoietin Receptor Agonists [MoA]"
     ],
     "class": [
-      "Hematologic Agent",
+      "Hematologic",
       "Thrombopoietin Receptor Agonist"
     ],
     "indications": [
@@ -31143,7 +31143,7 @@
       "Phosphoinositide 3-Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -31174,7 +31174,7 @@
       "Isocitrate Dehydrogenase 1 Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -31203,7 +31203,7 @@
       "Antisense Oligonucleotide Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Antisense Oligonucleotide"
     ],
     "indications": [
@@ -31235,7 +31235,7 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -31265,7 +31265,7 @@
     ],
     "class": [
       "Anticonvulsant",
-      "Serotonergic Agent"
+      "Serotonergic"
     ],
     "indications": [
       "Seizures",
@@ -31323,8 +31323,8 @@
       "PCSK9 Inhibitors [MoA]"
     ],
     "class": [
-      "Lipid-Lowering Agent",
-      "RNA Interference Therapeutic"
+      "Lipid-Lowering",
+      "Rna Interference Therapeutic"
     ],
     "indications": [
       "Hypercholesterolemia",
@@ -31386,7 +31386,7 @@
       "P-Glycoprotein Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Gonadotropin Releasing Hormone Antagonist"
     ],
     "indications": [
@@ -31414,8 +31414,8 @@
       "Poly(ADP-Ribose) Polymerase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
-      "PARP Inhibitor"
+      "Antineoplastic",
+      "Parp Inhibitor"
     ],
     "indications": [
       "Ovarian Cancer",
@@ -31444,7 +31444,7 @@
     ],
     "class": [
       "Corticosteroid",
-      "Anti-inflammatory"
+      "Anti-Inflammatory"
     ],
     "indications": [
       "Duchenne Muscular Dystrophy",
@@ -31472,7 +31472,7 @@
       "C-X-C Chemokine Receptor Type 4 Antagonists [MoA]"
     ],
     "class": [
-      "Hematopoietic Agent",
+      "Hematopoietic",
       "Chemokine Receptor Antagonist"
     ],
     "indications": [
@@ -31503,7 +31503,7 @@
       "Gamma Secretase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Gamma Secretase Inhibitor"
     ],
     "indications": [
@@ -31561,7 +31561,7 @@
       "Kinase Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -31589,7 +31589,7 @@
       "Phosphoinositide 3-Kinase alpha Inhibitors [MoA]"
     ],
     "class": [
-      "Antineoplastic Agent",
+      "Antineoplastic",
       "Kinase Inhibitor"
     ],
     "indications": [
@@ -31706,7 +31706,7 @@
       "Amyloid Beta-directed Antibody Interactions [MoA]"
     ],
     "class": [
-      "Neurologic Agent",
+      "Neurologic",
       "Monoclonal Antibody"
     ],
     "indications": [
@@ -31764,8 +31764,8 @@
       "Ultrasound Contrast Activity [MoA]"
     ],
     "class": [
-      "Diagnostic Agent",
-      "Contrast Agent"
+      "Diagnostic",
+      "Contrast"
     ],
     "indications": [
       "Ultrasound Imaging"
@@ -31792,7 +31792,7 @@
       "HIV Fusion Inhibitors [MoA]"
     ],
     "class": [
-      "Antiviral Agent",
+      "Antiviral",
       "Fusion Inhibitor"
     ],
     "indications": [
@@ -31821,7 +31821,7 @@
     ],
     "class": [
       "Antibiotic",
-      "Antitubercular Agent"
+      "Antitubercular"
     ],
     "indications": [
       "Tuberculosis",
@@ -31850,7 +31850,7 @@
       "Muscarinic Agonists [MoA]"
     ],
     "class": [
-      "Ophthalmic Agent",
+      "Ophthalmic",
       "Cholinergic Agonist"
     ],
     "indications": [
