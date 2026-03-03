@@ -22,7 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/utils
+# Large raw FDA data file (115 MB)
+/utils/drug-drugsfda-0001-of-0001.json
 
 # Terraform
 terraform/.terraform/

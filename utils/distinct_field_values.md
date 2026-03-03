@@ -1,0 +1,1053 @@
+# FDA Drug Data — Distinct Field Values
+
+## Product Type (2 distinct values)
+
+- HUMAN OTC DRUG
+- HUMAN PRESCRIPTION DRUG
+
+## Route (133 distinct values)
+
+- AURICULAR (OTIC)
+- BUCCAL
+- BUCCAL, SUBLINGUAL
+- CUTANEOUS
+- DENTAL
+- DROPS
+- ENDOCERVICAL
+- ENDOTRACHEAL
+- ENTERAL
+- EPIDURAL
+- EXTENDED RELEASE
+- EXTRACORPOREAL
+- FILM COATED
+- FOR RX COMPOUNDING
+- IM-IV
+- IMPLANTATION
+- INFILTRATION
+- INHALATION
+- INHALATION, INJECTION
+- INHALATION, INTRAVENOUS
+- INHALATION, ORAL
+- INJECTABLE
+- INJECTION
+- INJECTION, ORAL
+- INJECTION, ORAL, RECTAL
+- INTRA-ANAL
+- INTRA-ARTERIAL
+- INTRA-ARTICULAR
+- INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVITREAL
+- INTRABRONCHIAL
+- INTRACAMERAL
+- INTRACANALICULAR
+- INTRACARDIAC
+- INTRACAUDAL
+- INTRACAVERNOUS
+- INTRACAVITARY
+- INTRACAVITARY, INTRAVENOUS, INTRAVESICAL
+- INTRACORONARY
+- INTRACRANIAL
+- INTRADERMAL
+- INTRALESIONAL
+- INTRALUMINAL
+- INTRALYMPHATIC
+- INTRALYMPHATIC, INTRAUTERINE
+- INTRAMEDULLARY
+- INTRAMENINGEAL
+- INTRAMUSCULAR
+- INTRAMUSCULAR, INTRAVENOUS
+- INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS
+- INTRAMUSCULAR, ORAL
+- INTRAMUSCULAR, SUBCUTANEOUS
+- INTRAOCULAR
+- INTRAPERITONEAL
+- INTRAPLEURAL
+- INTRASINAL
+- INTRASYNOVIAL
+- INTRATHECAL
+- INTRATRACHEAL
+- INTRAUTERINE
+- INTRAVASCULAR
+- INTRAVENOUS
+- INTRAVENOUS, INTERSTITIAL
+- INTRAVENOUS, INTRAMUSCULAR, SUBCUTANEOUS, INTRAOSSEOUS, ENDOTRACHEAL
+- INTRAVENOUS, INTRAOCULAR, INTRAMUSCULAR, SUBCUTANEOUS
+- INTRAVENOUS, INTRAVENOUS
+- INTRAVENOUS, INTRAVESICULAR, OPHTHALMIC
+- INTRAVENOUS, ORAL
+- INTRAVENOUS, SUBCUTANEOUS
+- INTRAVENTRICULAR
+- INTRAVESICAL
+- INTRAVITREAL
+- IONTOPHORESIS
+- IONTOPHORESIS, TOPICAL
+- IONTOPHORESIS, TRANSDERMAL
+- IRRIGATION
+- IRRIGATION, URETHRAL
+- IV (INFUSION)
+- Inhalation, Oral
+- Injection
+- Intravesical, Ureteral
+- Iv (Infusion)
+- MULTIDOSE
+- N/A
+- NASAL
+- OPHTHALMIC
+- OPHTHALMIC, OTIC
+- ORAL
+- ORAL SUSPENSION
+- ORAL, RECTAL
+- ORAL-20
+- ORAL-21
+- ORAL-28
+- ORALLY DISINTEGRATING
+- OROPHARYNGEAL
+- OTIC
+- Oral
+- PARENTERAL
+- PERCUTANEOUS
+- PERFUSION, BILIARY
+- PERFUSION, CARDIAC
+- PERIARTICULAR
+- PERINEURAL
+- PERIODONTAL
+- POWDER,FOR SOLUTION
+- PYELOCALYCEAL
+- RECTAL
+- RECTAL, SUBLINGUAL
+- RESPIRATORY (INHALATION)
+- RETROBULBAR
+- SINGLE-DOSE
+- SINGLE-USE
+- SOFT TISSUE
+- SOLUTION
+- SOLUTION,CONCENTRATE
+- SPINAL
+- SUBARACHNOID
+- SUBCONJUNCTIVAL
+- SUBCUTANEOUS
+- SUBCUTANEOUS LYOPHILIZED POWER
+- SUBLINGUAL
+- SUBMUCOSAL
+- SUSPENSION
+- Subcutaneous
+- TOPICAL
+- TOPICAL, VAGINAL
+- TRANSDERMAL
+- TRANSMUCOSAL
+- Topical
+- Transdermal
+- UNKNOWN
+- URETERAL
+- URETHRAL
+- VAGINAL
+
+## Dosage Form (136 distinct values)
+
+- AEROSOL
+- AEROSOL, FOAM
+- AEROSOL, METERED
+- BAR, CHEWABLE
+- CAPSULE
+- CAPSULE, COATED PELLETS
+- CAPSULE, DELAYED REL PELLETS
+- CAPSULE, DELAYED REL PELLETS, TABLET
+- CAPSULE, DELAYED RELEASE
+- CAPSULE, EXTENDED RELEASE
+- CAPSULE, PELLET
+- CAPSULE, PELLETS
+- CAPSULE, TABLET
+- CAPSULE, TABLET, CAPSULE, DELAYED REL PELLETS
+- CAPSULE, TABLET, CAPSULE, DELAYED RELEASE
+- CAPSULE, TABLET, TABLET
+- CLOTH
+- CONCENTRATE
+- CREAM
+- CREAM, AUGMENTED
+- CREAM, INSERT
+- CREAM, SUPPOSITORY
+- CREAM, TABLET
+- Capsule
+- Cream
+- DISC
+- DRESSING
+- DRUG-ELUTING CONTACT LENS
+- ELIXIR
+- EMULSION
+- ENEMA
+- FIBER, EXTENDED RELEASE
+- FILM
+- FILM, EXTENDED RELEASE
+- FOAM
+- FOR SOLUTION
+- FOR SOLUTION, TABLET, DELAYED RELEASE
+- FOR SOLUTION, TABLET, FOR SOLUTION
+- FOR SUSPENSION
+- FOR SUSPENSION, DELAYED RELEASE
+- FOR SUSPENSION, EXTENDED RELEASE
+- FOR SUSPENSION, TABLET
+- Film, Extended Release
+- GAS
+- GEL
+- GEL, AUGMENTED
+- GEL, METERED
+- GRANULE
+- GRANULE, DELAYED RELEASE
+- GRANULE, EFFERVESCENT
+- GRANULES
+- GRANULES, EXTENDED RELEASE
+- GUM, CHEWING
+- IMPLANT
+- INHALANT
+- INJECTABLE
+- INJECTABLE, LIPID COMPLEX
+- INJECTABLE, LIPOSOMAL
+- INJECTABLE, SUSPENSION
+- INJECTABLE, TABLET
+- INJECTION
+- INJECTION, EMULSION
+- INSERT
+- INSERT, EXTENDED RELEASE
+- INTRAUTERINE DEVICE
+- Injectable
+- JELLY
+- LIQUID
+- LOTION
+- LOTION, AUGMENTED
+- LOTION/SHAMPOO
+- Lotion
+- N/A
+- OIL
+- OIL/DROPS
+- OINTMENT
+- OINTMENT, AUGMENTED
+- PASTE
+- PASTILLE
+- PATCH
+- PELLET
+- PELLETS
+- POWDER
+- POWDER, EXTENDED RELEASE
+- POWDER, FOR INJECTION SOLUTION, LYOPHILIZED POWDER
+- POWDER, FOR SOLUTION
+- POWDER, METERED
+- RING
+- SHAMPOO
+- SOAP
+- SOLUTION
+- SOLUTION FOR SLUSH
+- SOLUTION, ELIXIR
+- SOLUTION, EXTENDED RELEASE
+- SOLUTION, GEL FORMING/DROPS
+- SOLUTION, METERED
+- SOLUTION, SOLUTION
+- SOLUTION/DROPS
+- SOLUTION; ORAL AND TABLET; DELAYED RELEASE
+- SPONGE
+- SPRAY
+- SPRAY, METERED
+- SUPPOSITORY
+- SUSPENSION
+- SUSPENSION, EXTENDED RELEASE
+- SUSPENSION, LIPOSOMAL
+- SUSPENSION/DROPS
+- SWAB
+- SYRINGE
+- SYRUP
+- SYSTEM
+- SYSTEM, EXTENDED RELEASE
+- Solution
+- TABLET
+- TABLET, CHEWABLE
+- TABLET, CHEWABLE, TABLET
+- TABLET, CHEWABLE, TABLET, CAPSULE
+- TABLET, COATED PARTICLES
+- TABLET, DELAYED RELEASE
+- TABLET, DISPERSIBLE
+- TABLET, EFFERVESCENT
+- TABLET, EXTENDED RELEASE
+- TABLET, EXTENDED RELEASE, CHEWABLE
+- TABLET, FOR SUSPENSION
+- TABLET, ORALLY DISINTEGRATING
+- TABLET, ORALLY DISINTEGRATING, DELAYED RELEASE
+- TABLET, ORALLY DISINTEGRATING, EXTENDED RELEASE
+- TABLET:FILM COATED
+- TAMPON
+- TAPE
+- TROCHE/LOZENGE
+- Tablet
+- Tablet, Delayed Release
+- Tablet, Extended Release
+- UNKNOWN
+- VIAL
+
+## Marketing Status (4 distinct values)
+
+- Discontinued
+- None (Tentative Approval)
+- Over-the-counter
+- Prescription
+
+## Pharmacologic Class — EPC (Established Pharmacologic Class) (442 distinct values)
+
+- 4-Hydroxyphenyl-Pyruvate Dioxygenase Inhibitor [EPC]
+- 5-Lipoxygenase Inhibitor [EPC]
+- 5-alpha Reductase Inhibitor [EPC]
+- Acetylcholine Release Inhibitor [EPC]
+- Actinomycin [EPC]
+- Adenosine Receptor Agonist [EPC]
+- Adenosine Triphosphate-Citrate Lyase Inhibitor [EPC]
+- Adrenal Steroid Synthesis Inhibitor [EPC]
+- Adrenocorticotropic Hormone [EPC]
+- Aldehyde Dehydrogenase Inhibitor [EPC]
+- Aldosterone Antagonist [EPC]
+- Alkaloid [EPC]
+- Alkylating Drug [EPC]
+- Aluminum Complex [EPC]
+- Amide Local Anesthetic [EPC]
+- Amino Acid [EPC]
+- Aminoglycoside Antibacterial [EPC]
+- Aminosalicylate [EPC]
+- Amyloid Beta-directed Antibody [EPC]
+- Androgen Receptor Inhibitor [EPC]
+- Androgen [EPC]
+- Angiopoietin-like 3 Inhibitor [EPC]
+- Angiotensin 2 Receptor Blocker [EPC]
+- Angiotensin Converting Enzyme Inhibitor [EPC]
+- Anthelmintic [EPC]
+- Anthracycline Topoisomerase Inhibitor [EPC]
+- Anthrax Protective Antigen-directed Antibody [EPC]
+- Anti-IgE [EPC]
+- Anti-anginal [EPC]
+- Anti-coagulant [EPC]
+- Anti-epileptic Agent [EPC]
+- Antiarrhythmic [EPC]
+- Anticholinergic [EPC]
+- Antidiarrheal [EPC]
+- Antidote [EPC]
+- Antidote for Acetaminophen Overdose [EPC]
+- Antifibrinolytic Agent [EPC]
+- Antihypoglycemic Agent [EPC]
+- Antileishmanial [EPC]
+- Antimalarial [EPC]
+- Antimetabolite Immunosuppressant [EPC]
+- Antimetabolite [EPC]
+- Antimycobacterial [EPC]
+- Antiparasitic [EPC]
+- Antiprotozoal [EPC]
+- Antirheumatic Agent [EPC]
+- Antisense Oligonucleotide [EPC]
+- Antiseptic [EPC]
+- Aromatase Inhibitor [EPC]
+- Aromatic Amino Acid Decarboxylation Inhibitor [EPC]
+- Aromatic Amino Acid [EPC]
+- Arteriolar Vasodilator [EPC]
+- Aryl Hydrocarbon Receptor Agonist [EPC]
+- Asparagine-specific Enzyme [EPC]
+- Atypical Antipsychotic [EPC]
+- Azole Antifungal [EPC]
+- B Lymphocyte Stimulator-specific Inhibitor [EPC]
+- BCL-2 Inhibitor [EPC]
+- Barbiturate [EPC]
+- Benzodiazepine Antagonist [EPC]
+- Benzodiazepine [EPC]
+- Benzothiazole [EPC]
+- Bile Acid Sequestrant [EPC]
+- Bile Acid [EPC]
+- Bispecific CD20-directed CD3 T Cell Engager [EPC]
+- Bispecific gp100 Peptide-HLA-directed CD3 T Cell Engager [EPC]
+- Blood Viscosity Reducer [EPC]
+- CCR5 Co-receptor Antagonist [EPC]
+- CD123 Interaction [EPC]
+- CD19-directed Cytolytic Antibody [EPC]
+- CD20-directed Cytolytic Antibody [EPC]
+- CD22-directed Immunoconjugate [EPC]
+- CD25-directed Cytotoxin [EPC]
+- CD3-directed Antibody [EPC]
+- CD30-directed Immunoconjugate [EPC]
+- CD33-directed Immunoconjugate [EPC]
+- CD38-directed Cytolytic Antibody [EPC]
+- CD4-directed Blocking Antibody [EPC]
+- CD52-directed Cytolytic Antibody [EPC]
+- CTLA-4-directed Blocking Antibody [EPC]
+- CXC Chemokine Receptor 4 Antagonist [EPC]
+- Calcineurin Inhibitor Immunosuppressant [EPC]
+- Calcitonin Gene-related Peptide Antagonist [EPC]
+- Calcitonin Gene-related Peptide Receptor Antagonist [EPC]
+- Calcitonin [EPC]
+- Calcium Channel Blocker [EPC]
+- Calculi Dissolution Agent [EPC]
+- Cannabinoid [EPC]
+- Carbamoyl Phosphate Synthetase 1 Activator [EPC]
+- Carbonic Anhydrase Inhibitor [EPC]
+- Carboxypeptidase [EPC]
+- Cardiac Glycoside [EPC]
+- Cardiac Myosin Inhibitor [EPC]
+- Carnitine Analog [EPC]
+- Catechol-O-Methyltransferase Inhibitor [EPC]
+- Catecholamine Synthesis Inhibitor [EPC]
+- Catecholamine [EPC]
+- Central Nervous System Stimulant [EPC]
+- Central alpha-2 Adrenergic Agonist [EPC]
+- Cephalosporin Antibacterial [EPC]
+- Chemokine Receptor Type 4 Interaction [EPC]
+- Chloride Channel Activator [EPC]
+- Cholecystokinin Analog [EPC]
+- Cholinergic Muscarinic Agonist [EPC]
+- Cholinergic Muscarinic Antagonist [EPC]
+- Cholinergic Nicotinic Agonist [EPC]
+- Cholinesterase Inhibitor [EPC]
+- Classical Complement Pathway Inhibitor [EPC]
+- Claudin 18.2-directed Cytolytic Antibody [EPC]
+- Colony Stimulating Factor-1 Receptor Blocker [EPC]
+- Complement 5a Receptor Antagonist [EPC]
+- Complement C5 Inhibitor [EPC]
+- Complement Factor D Inhibitor [EPC]
+- Complement Inhibitor [EPC]
+- Contrast Agent for Ultrasound Imaging [EPC]
+- Copper-containing Intrauterine Device [EPC]
+- Corticosteroid [EPC]
+- Cortisol Synthesis Inhibitor [EPC]
+- Cyclooxygenase Inhibitor [EPC]
+- Cystic Fibrosis Transmembrane Conductance Regulator Potentiator [EPC]
+- Cytochrome P450 3A Inhibitor [EPC]
+- Cytolytic Agent [EPC]
+- Cytomegalovirus DNA Terminase Complex Inhibitor [EPC]
+- Cytomegalovirus Nucleoside Analog DNA Polymerase Inhibitor [EPC]
+- Cytomegalovirus pUL97 Kinase Inhibitor [EPC]
+- Cytotoxin [EPC]
+- Decorporation Agent [EPC]
+- Diagnostic Dye [EPC]
+- Dietary Cholesterol Absorption Inhibitor [EPC]
+- Dihydrofolate Reductase Inhibitor Antibacterial [EPC]
+- Dihydrofolate Reductase Inhibitor Antimalarial [EPC]
+- Dihydropyridine Calcium Channel Blocker [EPC]
+- Dipeptidyl Peptidase 4 Inhibitor [EPC]
+- Direct Thrombin Inhibitor [EPC]
+- Disclosing Agent [EPC]
+- Dopamine and Norepinephrine Reuptake Inhibitor [EPC]
+- Dopamine-2 Receptor Antagonist [EPC]
+- Echinocandin Antifungal [EPC]
+- Ectoparasiticide [EPC]
+- Endoglycosidase [EPC]
+- Endothelin Receptor Antagonist [EPC]
+- Enzyme Stabilizer [EPC]
+- Epidermal Growth Factor Receptor Antagonist [EPC]
+- Ergot Derivative [EPC]
+- Erythroid Maturation Agent [EPC]
+- Erythropoiesis-stimulating Agent [EPC]
+- Estrogen Agonist/Antagonist [EPC]
+- Estrogen Receptor Antagonist [EPC]
+- Estrogen [EPC]
+- Expectorant [EPC]
+- Factor Xa Inhibitor [EPC]
+- Farnesoid X Receptor Agonist [EPC]
+- Farnesyltransferase Inhibitor [EPC]
+- Fluoroquinolone Antibacterial [EPC]
+- Folate Analog Metabolic Inhibitor [EPC]
+- GLP-1 Receptor Agonist [EPC]
+- GLP-2 Analog [EPC]
+- Gadolinium-based Contrast Agent [EPC]
+- Gamma Secretase Inhibitor [EPC]
+- Gastrointestinal Motility Inhibitor [EPC]
+- General Anesthetic [EPC]
+- Glinide [EPC]
+- Glucose-dependent Insulinotropic Polypeptide Receptor Agonist [EPC]
+- Glucosylceramide Synthase Inhibitor [EPC]
+- Glycolipid Disialoganglioside-directed Antibody [EPC]
+- Glycopeptide Antibacterial [EPC]
+- Gonadotropin Releasing Hormone Receptor Antagonist [EPC]
+- Gonadotropin [EPC]
+- Growth Hormone Secretagogue Receptor Agonist [EPC]
+- Guanylate Cyclase-C Agonist [EPC]
+- HER2/neu Receptor Antagonist [EPC]
+- HMG-CoA Reductase Inhibitor [EPC]
+- Hedgehog Pathway Inhibitor [EPC]
+- Helicobacter pylori Diagnostic [EPC]
+- Hematopoietic Stem Cell Mobilizer [EPC]
+- Hemoglobin S Polymerization Inhibitor [EPC]
+- Hepatitis B Virus Nucleoside Analog Reverse Transcriptase Inhibitor [EPC]
+- Hepatitis C Virus NS3/4A Protease Inhibitor [EPC]
+- Hepatitis C Virus NS5A Inhibitor [EPC]
+- Hepatitis C Virus Nucleotide Analog NS5B Polymerase Inhibitor [EPC]
+- Herpes Simplex Virus Nucleoside Analog DNA Polymerase Inhibitor [EPC]
+- Herpes Zoster Virus Nucleoside Analog DNA Polymerase Inhibitor [EPC]
+- Herpesvirus Nucleoside Analog DNA Polymerase Inhibitor [EPC]
+- Histamine-1 Receptor Antagonist [EPC]
+- Histamine-2 Receptor Antagonist [EPC]
+- Histone Deacetylase Inhibitor [EPC]
+- Human Immunodeficiency Virus 1 Non-Nucleoside Analog Reverse Transcriptase Inhibitor [EPC]
+- Human Immunodeficiency Virus 1 Post-attachment Fusion Inhibitor [EPC]
+- Human Immunodeficiency Virus Integrase Strand Transfer Inhibitor [EPC]
+- Human Immunodeficiency Virus Nucleoside Analog Reverse Transcriptase Inhibitor [EPC]
+- Human Platelet-derived Growth Factor [EPC]
+- Humanized Monoclonal Antibody Fragment [EPC]
+- Hydrolytic Lysosomal Cholesteryl Ester-specific Enzyme [EPC]
+- Hydrolytic Lysosomal Glucocerebroside-specific Enzyme [EPC]
+- Hydrolytic Lysosomal Glycogen-specific Enzyme [EPC]
+- Hydrolytic Lysosomal Glycosaminoglycan-specific Enzyme [EPC]
+- Hydrolytic Lysosomal Neutral Glycosphingolipid-specific Enzyme [EPC]
+- Hydrolytic Lysosomal Triacylglycerol-specific Enzyme [EPC]
+- Hyperpolarized Contrast Agent [EPC]
+- Hypoxia-inducible Factor Inhibitor [EPC]
+- Hypoxia-inducible Factor Prolyl Hydroxylase Inhibitor [EPC]
+- Ileal Bile Acid Transporter Inhibitor [EPC]
+- Influenza A M2 Protein Inhibitor [EPC]
+- Inhalation Diagnostic Agent [EPC]
+- Insulin Analog [EPC]
+- Insulin [EPC]
+- Insulin-like Growth Factor-1 Receptor Inhibitor [EPC]
+- Integrin Receptor Antagonist [EPC]
+- Interferon alfa-2b [EPC]
+- Interferon alpha [EPC]
+- Interferon beta [EPC]
+- Interferon gamma Blocker [EPC]
+- Interferon gamma [EPC]
+- Interleukin-1 Receptor Antagonist [EPC]
+- Interleukin-12 Antagonist [EPC]
+- Interleukin-13 Antagonist [EPC]
+- Interleukin-17 Receptor A Antagonist [EPC]
+- Interleukin-17A Antagonist [EPC]
+- Interleukin-2 Receptor Blocking Antibody [EPC]
+- Interleukin-23 Antagonist [EPC]
+- Interleukin-31 Receptor alpha Antagonist [EPC]
+- Interleukin-36 Receptor Antagonist [EPC]
+- Interleukin-4 Receptor alpha Antagonist [EPC]
+- Interleukin-5 Antagonist [EPC]
+- Interleukin-5 Receptor alpha-directed Cytolytic Antibody [EPC]
+- Interleukin-6 Antagonist [EPC]
+- Interleukin-6 Receptor Antagonist [EPC]
+- Intestinal Lipase Inhibitor [EPC]
+- Iron Chelator [EPC]
+- Isocitrate Dehydrogenase 1 Inhibitor [EPC]
+- Isocitrate Dehydrogenase 2 Inhibitor [EPC]
+- Janus Kinase Inhibitor [EPC]
+- Kinase Inhibitor [EPC]
+- Lead Chelator [EPC]
+- Leptin Analog [EPC]
+- Leukocyte Growth Factor [EPC]
+- Leukotriene Receptor Antagonist [EPC]
+- Lincosamide Antibacterial [EPC]
+- Lipid Emulsion [EPC]
+- Lipid-based Polyene Antifungal [EPC]
+- Lipoglycopeptide Antibacterial [EPC]
+- Lipopeptide Antibacterial [EPC]
+- Loop Diuretic [EPC]
+- Lymphocyte Activation Gene-3 Blocker [EPC]
+- Lymphocyte Function-Associated Antigen-1 Antagonist [EPC]
+- Lymphocyte Growth Factor [EPC]
+- Lysosomal beta Glucuronidase [EPC]
+- Macrolide Antibacterial [EPC]
+- Macrolide Antimicrobial [EPC]
+- Macrolide [EPC]
+- Medium-chain Triglyceride [EPC]
+- Melanin Synthesis Inhibitor [EPC]
+- Melanocortin 4 Receptor Agonist [EPC]
+- Melatonin Receptor Agonist [EPC]
+- Methylating Agent [EPC]
+- Methylxanthine [EPC]
+- Microtubule Inhibitor [EPC]
+- Monoamine Oxidase Inhibitor [EPC]
+- Monoamine Oxidase Type B Inhibitor [EPC]
+- Monobactam Antibacterial [EPC]
+- Monoclonal Antibody [EPC]
+- Mood Stabilizer [EPC]
+- Mucocutaneous Epithelial Cell Growth Factor [EPC]
+- Mucolytic [EPC]
+- Muscle Relaxant [EPC]
+- Neonatal Fc Receptor Blocker [EPC]
+- Neuraminidase Inhibitor [EPC]
+- Neuroactive Steroid Gamma-Aminobutyric Acid A Receptor Positive Modulator [EPC]
+- Neurokinin 3 Receptor Antagonist [EPC]
+- Neuromuscular Blocker [EPC]
+- Nicotinic Acid [EPC]
+- Nitrate Vasodilator [EPC]
+- Nitrofuran Antibacterial [EPC]
+- Nitroimidazole Antimicrobial [EPC]
+- Non-narcotic Antitussive [EPC]
+- Noncompetitive AMPA Glutamate Receptor Antagonist [EPC]
+- Nonergot Dopamine Agonist [EPC]
+- Nonsteroidal Anti-inflammatory Drug [EPC]
+- Nonsteroidal Mineralocorticoid-Receptor Antagonist [EPC]
+- Nuclear Export Inhibitor [EPC]
+- Nucleoside Analog Antifungal [EPC]
+- Nucleoside Analog Antiviral [EPC]
+- Nucleoside Metabolic Inhibitor [EPC]
+- Opioid Agonist [EPC]
+- Opioid Antagonist [EPC]
+- Orexin Receptor Antagonist [EPC]
+- Orthopoxvirus VP37 Envelope Wrapping Protein Inhibitor [EPC]
+- Osmotic Diuretic [EPC]
+- Osmotic Laxative [EPC]
+- Oxaborole Antifungal [EPC]
+- Oxazolidinone Antibacterial [EPC]
+- Oxytocic [EPC]
+- P2Y12 Platelet Inhibitor [EPC]
+- PCSK9 Inhibitor [EPC]
+- Paramagnetic Contrast Agent [EPC]
+- Parathyroid Hormone Analog [EPC]
+- Parathyroid Hormone [EPC]
+- Parathyroid Hormone-Related Peptide Analog [EPC]
+- Parenteral Iron Replacement [EPC]
+- Partial Opioid Agonist [EPC]
+- Partial Opioid Agonist/Antagonist [EPC]
+- Pediculicide [EPC]
+- Penem Antibacterial [EPC]
+- Peroxisome Proliferator Receptor alpha Agonist [EPC]
+- Peroxisome Proliferator Receptor gamma Agonist [EPC]
+- Peroxisome Proliferator-activated Receptor Agonist [EPC]
+- Pharmacologic Cardiac Stress Test Agent [EPC]
+- Phenothiazine [EPC]
+- Phenylalanine Metabolizing Enzyme [EPC]
+- Phosphate Binder [EPC]
+- Phosphodiesterase 3 Inhibitor [EPC]
+- Phosphodiesterase 4 Inhibitor [EPC]
+- Phosphodiesterase 5 Inhibitor [EPC]
+- Photoactivated Radical Generator [EPC]
+- Photoenhancer [EPC]
+- Plasma Kallikrein Inhibitor [EPC]
+- Platelet Aggregation Inhibitor [EPC]
+- Platinum-based Drug [EPC]
+- Poly(ADP-Ribose) Polymerase Inhibitor [EPC]
+- Polyene Antifungal [EPC]
+- Polyene Antimicrobial [EPC]
+- Potassium Binder [EPC]
+- Potassium Channel Blocker [EPC]
+- Potassium-sparing Diuretic [EPC]
+- Progesterone [EPC]
+- Progestin Antagonist [EPC]
+- Progestin [EPC]
+- Progestin-containing Intrauterine System [EPC]
+- Programmed Death Ligand-1 Blocker [EPC]
+- Programmed Death Receptor-1 Blocking Antibody [EPC]
+- Prostacyclin Receptor Agonist [EPC]
+- Prostacycline Vasodilator [EPC]
+- Prostacycline [EPC]
+- Prostaglandin Analog [EPC]
+- Prostaglandin E1 Agonist [EPC]
+- Prostaglandin E1 Analog [EPC]
+- Protease Inhibitor [EPC]
+- Proteasome Inhibitor [EPC]
+- Proton Pump Inhibitor [EPC]
+- Provitamin D2 Compound [EPC]
+- Psoralen [EPC]
+- Purine Antimetabolite [EPC]
+- Pyrethroid [EPC]
+- Pyridone [EPC]
+- Pyrimidine Synthesis Inhibitor [EPC]
+- Pyruvate Kinase Activator [EPC]
+- Quinolone Antimicrobial [EPC]
+- RANK Ligand Inhibitor [EPC]
+- RNA Synthetase Inhibitor Antibacterial [EPC]
+- Radioactive Diagnostic Agent [EPC]
+- Radiographic Contrast Agent [EPC]
+- Radioligand Therapeutic Agent [EPC]
+- Recombinant Human Deoxyribonuclease 1 [EPC]
+- Recombinant Human Growth Hormone [EPC]
+- Recombinant Human Nerve Growth Factor [EPC]
+- Reducing and Complexing Thiol [EPC]
+- Renal Dehydropeptidase Inhibitor [EPC]
+- Respiratory Syncytial Virus Anti-F Protein Monoclonal Antibody [EPC]
+- Retinoid [EPC]
+- Rifamycin Antibacterial [EPC]
+- Rifamycin Antimycobacterial [EPC]
+- SARS-CoV-2 Nucleotide Analog RNA Polymerase Inhibitor [EPC]
+- SLAMF7-directed Immunostimulatory Antibody [EPC]
+- Sclerosing Agent [EPC]
+- Selectin Blocker [EPC]
+- Selective T Cell Costimulation Blocker [EPC]
+- Selective T Cell Costimulation Modulator [EPC]
+- Semifluorinated Alkane [EPC]
+- Serotonin Reuptake Inhibitor [EPC]
+- Serotonin and Norepinephrine Reuptake Inhibitor [EPC]
+- Serotonin-1b and Serotonin-1d Receptor Agonist [EPC]
+- Serotonin-3 Receptor Antagonist [EPC]
+- Sigma-1 Agonist [EPC]
+- Sodium-Glucose Cotransporter 2 Inhibitor [EPC]
+- Soluble Guanylate Cyclase Stimulator [EPC]
+- Somatostatin Analog [EPC]
+- Sphingosine 1-phosphate Receptor Modulator [EPC]
+- Substance P/Neurokinin-1 Receptor Antagonist [EPC]
+- Sucrose-specific Enzyme [EPC]
+- Sulfonamide Antibacterial [EPC]
+- Sulfonamide Antimicrobial [EPC]
+- Sulfone [EPC]
+- Sulfonylurea [EPC]
+- Surfactant [EPC]
+- Survival Motor Neuron-2-directed RNA Interaction [EPC]
+- Survival of Motor Neuron 2 Splicing Modifier [EPC]
+- Sympathomimetic-like Agent [EPC]
+- Tetracycline-class Antibacterial [EPC]
+- Tetracycline-class Drug [EPC]
+- Thalidomide Analog [EPC]
+- Thiazide Diuretic [EPC]
+- Thiazide-like Diuretic [EPC]
+- Thiazolidinedione [EPC]
+- Thrombopoietin Receptor Agonist [EPC]
+- Thymic Stromal Lymphopoietin Blocker [EPC]
+- Thyroid Hormone Receptor beta Agonist [EPC]
+- Thyroid Hormone Synthesis Inhibitor [EPC]
+- Thyroid Stimulating Hormone [EPC]
+- Tissue-nonspecific Alkaline Phosphatase [EPC]
+- Topoisomerase Inhibitor [EPC]
+- Transthyretin-directed RNA Interaction [EPC]
+- Tricyclic Antidepressant [EPC]
+- Tubulin Inhibiting Agent [EPC]
+- Tumor Necrosis Factor Blocker [EPC]
+- Type I Interferon Receptor Antagonist [EPC]
+- Typical Antipsychotic [EPC]
+- Tyrosine Kinase 2 Inhibitor [EPC]
+- Uncompetitive N-methyl-D-aspartate Receptor Antagonist [EPC]
+- Unfractionated Heparin [EPC]
+- Urease Inhibitor [EPC]
+- Uric Acid-specific Enzyme [EPC]
+- Vascular Endothelial Growth Factor Inhibitor [EPC]
+- Vascular Endothelial Growth Factor Receptor 2 Antagonist [EPC]
+- Vasoconstrictor [EPC]
+- Vasodilator [EPC]
+- Vasopressin Receptor Agonist [EPC]
+- Vasopressin V2 Receptor Antagonist [EPC]
+- Vesicular Monoamine Transporter 2 Inhibitor [EPC]
+- Vitamin B12 [EPC]
+- Vitamin C [EPC]
+- Vitamin D Analog [EPC]
+- Vitamin D [EPC]
+- Vitamin D2 Analog [EPC]
+- Vitamin D3 Analog [EPC]
+- Vitamin K [EPC]
+- Warfarin Reversal Agent [EPC]
+- Xanthine Oxidase Inhibitor [EPC]
+- Zaire Ebolavirus Glycoprotein-directed Antibody [EPC]
+- alpha-1 Adrenergic Agonist [EPC]
+- alpha-Adrenergic Agonist [EPC]
+- alpha-Adrenergic Blocker [EPC]
+- alpha-Glucosidase Inhibitor [EPC]
+- alpha-Hydroxy Acid [EPC]
+- beta Lactamase Inhibitor [EPC]
+- beta-Adrenergic Agonist [EPC]
+- beta-Adrenergic Blocker [EPC]
+- beta2-Adrenergic Agonist [EPC]
+- beta3-Adrenergic Agonist [EPC]
+- gamma-Aminobutyric Acid A Receptor Agonist [EPC]
+- gamma-Aminobutyric Acid-ergic Agonist [EPC]
+- mTOR Inhibitor Immunosuppressant [EPC]
+- mu-Opioid Receptor Agonist [EPC]
+
+## Pharmacologic Class — MOA (Mechanism of Action) (317 distinct values)
+
+- 5-Lipoxygenase Inhibitors [MoA]
+- 5-alpha Reductase Inhibitors [MoA]
+- AMPA Receptor Antagonists [MoA]
+- Acetyl Aldehyde Dehydrogenase Inhibitors [MoA]
+- Acetylcholine Release Inhibitors [MoA]
+- Acidifying Activity [MoA]
+- Adenosine Receptor Agonists [MoA]
+- Adenosine Triphosphate-Citrate Lyase Inhibitors [MoA]
+- Adrenal Steroid Synthesis Inhibitors [MoA]
+- Adrenergic alpha-Agonists [MoA]
+- Adrenergic alpha-Antagonists [MoA]
+- Adrenergic alpha1-Agonists [MoA]
+- Adrenergic alpha2-Agonists [MoA]
+- Adrenergic beta-Agonists [MoA]
+- Adrenergic beta-Antagonists [MoA]
+- Adrenergic beta1-Antagonists [MoA]
+- Adrenergic beta2-Agonists [MoA]
+- Adrenergic beta2-Antagonists [MoA]
+- Adrenergic beta3-Agonists [MoA]
+- Aldosterone Antagonists [MoA]
+- Alkylating Activity [MoA]
+- Amyloid Beta-directed Antibody Interactions [MoA]
+- Androgen Receptor Agonists [MoA]
+- Androgen Receptor Antagonists [MoA]
+- Angiopoietin-like 3 Inhibitors [MoA]
+- Angiotensin 2 Receptor Antagonists [MoA]
+- Angiotensin 2 Type 1 Receptor Antagonists [MoA]
+- Angiotensin-converting Enzyme Inhibitors [MoA]
+- Anthrax Protective Antigen-directed Antibody Interactions [MoA]
+- Aromatase Inhibitors [MoA]
+- Aryl Hydrocarbon Receptor Agonists [MoA]
+- B Lymphocyte Stimulator-directed Antibody Interactions [MoA]
+- Bcr-Abl Tyrosine Kinase Inhibitors [MoA]
+- Bile Salt Export Pump Inhibitors [MoA]
+- Bile-acid Binding Activity [MoA]
+- Breast Cancer Resistance Protein Inhibitors [MoA]
+- Bruton's Tyrosine Kinase Inhibitors [MoA]
+- CD123 Interactions [MoA]
+- CD19-directed Antibody Interactions [MoA]
+- CD20-directed Antibody Interactions [MoA]
+- CD22-directed Antibody Interactions [MoA]
+- CD3 Receptor Agonists [MoA]
+- CD3-directed Antibody Interactions [MoA]
+- CD30-directed Antibody Interactions [MoA]
+- CD33-directed Antibody Interactions [MoA]
+- CD38-directed Antibody Interactions [MoA]
+- CD4-directed Antibody Interactions [MoA]
+- CD52-directed Antibody Interactions [MoA]
+- CD80-directed Antibody Interactions [MoA]
+- CD86-directed Antibody Interactions [MoA]
+- CTLA-4-directed Antibody Interactions [MoA]
+- CXC Chemokine Receptor 4 Antagonists [MoA]
+- Calcineurin Inhibitors [MoA]
+- Calcitonin Gene-related Peptide Antagonists [MoA]
+- Calcitonin Gene-related Peptide Receptor Antagonists [MoA]
+- Calcium Channel Antagonists [MoA]
+- Calcium Chelating Activity [MoA]
+- Carbamoyl Phosphate Synthetase 1 Activators [MoA]
+- Carbonic Anhydrase Inhibitors [MoA]
+- Cardiac Myosin Inhibitors [MoA]
+- Catechol O-Methyltransferase Inhibitors [MoA]
+- Catecholamine Synthesis Inhibitors [MoA]
+- Chelating Activity [MoA]
+- Chemokine Co-receptor 5 Antagonists [MoA]
+- Chemokine Receptor Type 4 Interactions [MoA]
+- Chloride Channel Activation Potentiators [MoA]
+- Chloride Channel Activators [MoA]
+- Cholinergic Antagonists [MoA]
+- Cholinergic Muscarinic Agonists [MoA]
+- Cholinergic Muscarinic Antagonists [MoA]
+- Cholinesterase Inhibitors [MoA]
+- Classical Complement Pathway Inhibitors [MoA]
+- Claudin 18.2-directed Antibody Interactions [MoA]
+- Colony Stimulating Factor Receptor Type 1 (CSF-1R) Inhibitors [MoA]
+- Competitive Opioid Antagonists [MoA]
+- Complement 5a Receptor Antagonists [MoA]
+- Complement C5 Inhibitors [MoA]
+- Complement Factor D Inhibitors [MoA]
+- Complement Inhibitors [MoA]
+- Corticosteroid Hormone Receptor Agonists [MoA]
+- Cyclooxygenase Inhibitors [MoA]
+- Cystine Disulfide Reduction [MoA]
+- Cytochrome P450 11A1 Inhibitors [MoA]
+- Cytochrome P450 11B1 Inhibitors [MoA]
+- Cytochrome P450 17A1 Inhibitors [MoA]
+- Cytochrome P450 1A Inducers [MoA]
+- Cytochrome P450 1A2 Inducers [MoA]
+- Cytochrome P450 1A2 Inhibitors [MoA]
+- Cytochrome P450 2A6 Inhibitors [MoA]
+- Cytochrome P450 2B6 Inducers [MoA]
+- Cytochrome P450 2B6 Inhibitors [MoA]
+- Cytochrome P450 2C19 Inducers [MoA]
+- Cytochrome P450 2C19 Inhibitors [MoA]
+- Cytochrome P450 2C8 Inducers [MoA]
+- Cytochrome P450 2C8 Inhibitors [MoA]
+- Cytochrome P450 2C9 Inducers [MoA]
+- Cytochrome P450 2C9 Inhibitors [MoA]
+- Cytochrome P450 2D6 Inducers [MoA]
+- Cytochrome P450 2D6 Inhibitors [MoA]
+- Cytochrome P450 2E1 Inducers [MoA]
+- Cytochrome P450 3A Inducers [MoA]
+- Cytochrome P450 3A Inhibitors [MoA]
+- Cytochrome P450 3A4 Inducers [MoA]
+- Cytochrome P450 3A4 Inhibitors [MoA]
+- Cytochrome P450 3A5 Inhibitors [MoA]
+- Cytochrome P450 Inhibitors [MoA]
+- Cytomegalovirus pUL97 Kinase Inhibitors [MoA]
+- DNA Polymerase Inhibitors [MoA]
+- DNA Terminase Complex Inhibitors [MoA]
+- DOPA Decarboxylase Inhibitors [MoA]
+- Dihydrofolate Reductase Inhibitors [MoA]
+- Dihydroorotate Dehydrogenase Inhibitors [MoA]
+- Dipeptidase Inhibitors [MoA]
+- Dipeptidyl Peptidase 4 Inhibitors [MoA]
+- Dopamine Agonists [MoA]
+- Dopamine D2 Antagonists [MoA]
+- Dopamine Uptake Inhibitors [MoA]
+- Dyes [MoA]
+- Endothelin Receptor Antagonists [MoA]
+- Enzyme Stabilizers [MoA]
+- Epoxide Hydrolase Inhibitors [MoA]
+- Estrogen Receptor Agonists [MoA]
+- Estrogen Receptor Antagonists [MoA]
+- Factor Xa Inhibitors [MoA]
+- Farnesoid X Receptor Agonists [MoA]
+- Farnesyltransferase Inhibitors [MoA]
+- Fibroblast Growth Factor Receptor Inhibitors [MoA]
+- Folic Acid Metabolism Inhibitors [MoA]
+- Full Opioid Agonists [MoA]
+- Fusion Protein Inhibitors [MoA]
+- G-Protein-linked Receptor Interactions [MoA]
+- GABA A Agonists [MoA]
+- GABA A Receptor Positive Modulators [MoA]
+- GABA B Agonists [MoA]
+- Gamma Secretase Inhibitors [MoA]
+- Glucagon Receptor Agonists [MoA]
+- Glucagon-like Peptide-1 (GLP-1) Agonists [MoA]
+- Glucagon-like Peptide-2 (GLP-2) Agonists [MoA]
+- Glucosylceramide Synthase Inhibitors [MoA]
+- Glycolipid Disialoganglioside-directed Antibody Interactions [MoA]
+- Glycoprotein 100 Peptide-Human Leukocyte Antigen-directed Antibody Interactions [MoA]
+- Gonadotropin Releasing Hormone Receptor Antagonists [MoA]
+- Growth Hormone Secretagogue Receptor Agonists [MoA]
+- Guanylate Cyclase Activators [MoA]
+- Guanylate Cyclase Stimulators [MoA]
+- HCV NS3/4A Protease Inhibitors [MoA]
+- HER1 Antagonists [MoA]
+- HER2/Neu/cerbB2 Antagonists [MoA]
+- HIV 1 Post-attachment Fusion Inhibitors [MoA]
+- HIV Integrase Inhibitors [MoA]
+- HIV Protease Inhibitors [MoA]
+- Hemoglobin S Polymerization Inhibitors [MoA]
+- Histamine H1 Receptor Antagonists [MoA]
+- Histamine H2 Receptor Antagonists [MoA]
+- Histone Deacetylase Inhibitors [MoA]
+- Hydroxymethylglutaryl-CoA Reductase Inhibitors [MoA]
+- Hydroxyphenylpyruvate Dioxygenase Inhibitors [MoA]
+- Hypoxia-Inducible Factor Prolyl Hydroxylase Inhibitors [MoA]
+- Hypoxia-inducible Factor 2 alpha Inhibitors [MoA]
+- IgE-directed Antibody Interactions [MoA]
+- Ileal Bile Acid Transporter Inhibitors [MoA]
+- Insulin-like Growth Factor-1 Receptor Inhibitors [MoA]
+- Integrin Receptor Antagonists [MoA]
+- Interferon Inducers [MoA]
+- Interferon gamma Antagonists [MoA]
+- Interleukin 1 Receptor Antagonists [MoA]
+- Interleukin 17 Receptor A Antagonists [MoA]
+- Interleukin 2 Receptor Antagonists [MoA]
+- Interleukin 2 Receptor-directed Antibody Interactions [MoA]
+- Interleukin 4 Receptor alpha Antagonists [MoA]
+- Interleukin 5 Receptor alpha-directed Antibody Interactions [MoA]
+- Interleukin 6 Receptor Antagonists [MoA]
+- Interleukin-12 Antagonists [MoA]
+- Interleukin-13 Antagonists [MoA]
+- Interleukin-17A Antagonists [MoA]
+- Interleukin-23 Antagonists [MoA]
+- Interleukin-31 Receptor alpha Antagonists [MoA]
+- Interleukin-36 Receptor Antagonists [MoA]
+- Interleukin-5 Antagonists [MoA]
+- Interleukin-6 Antagonists [MoA]
+- Ion Exchange Activity [MoA]
+- Iron Chelating Activity [MoA]
+- Irrigation [MoA]
+- Isocitrate Dehydrogenase 1 Inhibitors [MoA]
+- Isocitrate Dehydrogenase 2 Inhibitors [MoA]
+- Janus Kinase Inhibitors [MoA]
+- Kallikrein Inhibitors [MoA]
+- Kinase Inhibitors [MoA]
+- Lead Chelating Activity [MoA]
+- Leukotriene Receptor Antagonists [MoA]
+- Lipase Inhibitors [MoA]
+- Lymphocyte Activation Gene-3 Antagonists [MoA]
+- Lymphocyte Function-Associated Antigen-1 Antagonists [MoA]
+- M2 Protein Inhibitors [MoA]
+- Magnetic Resonance Contrast Activity [MoA]
+- Melanin Synthesis Inhibitors [MoA]
+- Melanocortin 4 Receptor Agonists [MoA]
+- Melatonin Receptor Agonists [MoA]
+- Methylating Activity [MoA]
+- Mineralocorticoid Receptor Antagonists [MoA]
+- Mitogen-Activated Protein Kinase Kinase 1 Inhibitors [MoA]
+- Mitogen-Activated Protein Kinase Kinase 2 Inhibitors [MoA]
+- Monoamine Oxidase Inhibitors [MoA]
+- Monoamine Oxidase-B Inhibitors [MoA]
+- Multidrug and Toxin Extrusion Transporter 1 Inhibitors [MoA]
+- Multidrug and Toxin Extrusion Transporter 2 K Inhibitors [MoA]
+- Neonatal Fc Receptor Blockers [MoA]
+- Neuraminidase Inhibitors [MoA]
+- Neurokinin 1 Antagonists [MoA]
+- Neurokinin 3 Receptor Antagonists [MoA]
+- Non-Nucleoside Reverse Transcriptase Inhibitors [MoA]
+- Norepinephrine Uptake Inhibitors [MoA]
+- Nuclear Export Inhibitors [MoA]
+- Nucleic Acid Synthesis Inhibitors [MoA]
+- Nucleoside Reverse Transcriptase Inhibitors [MoA]
+- Opioid Antagonists [MoA]
+- Opioid mu-Receptor Agonists [MoA]
+- Orexin Receptor Antagonists [MoA]
+- Organic Anion Transporter 1 Inhibitors [MoA]
+- Organic Anion Transporter 3 Inhibitors [MoA]
+- Organic Anion Transporting Polypeptide 1B1 Inhibitors [MoA]
+- Organic Anion Transporting Polypeptide 1B3 Inhibitors [MoA]
+- Organic Anion Transporting Polypeptide 2B1 Inhibitors [MoA]
+- Organic Cation Transporter 1 Inhibitors [MoA]
+- Organic Cation Transporter 2 Inhibitors [MoA]
+- Osmotic Activity [MoA]
+- P-Glycoprotein Inducers [MoA]
+- P-Glycoprotein Inhibitors [MoA]
+- P-Selectin Blockers [MoA]
+- P2Y12 Receptor Antagonists [MoA]
+- PCSK9 Inhibitors [MoA]
+- Partial Opioid Agonists [MoA]
+- Peroxisome Proliferator-activated Receptor Agonists [MoA]
+- Peroxisome Proliferator-activated Receptor alpha Agonists [MoA]
+- Peroxisome Proliferator-activated Receptor gamma Agonists [MoA]
+- Phosphate Chelating Activity [MoA]
+- Phosphodiesterase 3 Inhibitors [MoA]
+- Phosphodiesterase 4 Inhibitors [MoA]
+- Phosphodiesterase 5 Inhibitors [MoA]
+- Phosphoinositide 3-Kinase alpha Inhibitors [MoA]
+- Photoabsorption [MoA]
+- Platelet-derived Growth Factor alpha Receptor Inhibitors [MoA]
+- Poly(ADP-Ribose) Polymerase Inhibitors [MoA]
+- Positron Emitting Activity [MoA]
+- Potassium Channel Antagonists [MoA]
+- Potassium Ion Binding Activity [MoA]
+- Potassium Ion Exchange Activity [MoA]
+- Progestational Hormone Receptor Antagonists [MoA]
+- Programmed Death Ligand-1 Antagonists [MoA]
+- Programmed Death Ligand-1-directed Antibody Interactions [MoA]
+- Programmed Death Receptor-1-directed Antibody Interactions [MoA]
+- Prostacyclin Receptor Agonists [MoA]
+- Prostaglandin Receptor Agonists [MoA]
+- Proteasome Inhibitors [MoA]
+- Protein Kinase Inhibitors [MoA]
+- Protein Synthesis Inhibitors [MoA]
+- Proto-Oncogene Tyrosine-Protein Kinase ROS1 Inhibitors [MoA]
+- Proton Pump Inhibitors [MoA]
+- Pyruvate Kinase Activators [MoA]
+- RANK Ligand Blocking Activity [MoA]
+- RNA Replicase Inhibitors [MoA]
+- RNA Synthetase Inhibitors [MoA]
+- Radioligand Activity [MoA]
+- Radiopharmaceutical Activity [MoA]
+- Rearranged during Transfection (RET) Inhibitors [MoA]
+- Receptor Tyrosine Kinase Inhibitors [MoA]
+- Reduction Activity [MoA]
+- SLAMF7-directed Antibody Interactions [MoA]
+- Sclerosing Activity [MoA]
+- Selective Estrogen Receptor Modulators [MoA]
+- Serotonin 1b Receptor Agonists [MoA]
+- Serotonin 1d Receptor Agonists [MoA]
+- Serotonin 3 Receptor Antagonists [MoA]
+- Serotonin Uptake Inhibitors [MoA]
+- Sigma-1 Receptor Agonists [MoA]
+- Smoothened Receptor Antagonists [MoA]
+- Sodium-Glucose Transporter 2 Inhibitors [MoA]
+- Somatostatin Receptor Agonists [MoA]
+- Sphingosine 1-Phosphate Receptor Modulators [MoA]
+- Stem Cell Factor (KIT) Receptor Inhibitors [MoA]
+- Surfactant Activity [MoA]
+- Survival of Motor Neuron 2 Splicing Modifiers [MoA]
+- Thrombin Inhibitors [MoA]
+- Thrombopoietin Receptor Agonists [MoA]
+- Thymic Stromal Lymphopoietin Blockers [MoA]
+- Thyroid Hormone Receptor beta Agonists [MoA]
+- Thyroid Hormone Synthesis Inhibitors [MoA]
+- Topoisomerase Inhibitors [MoA]
+- Tropomyosin Receptor Kinases Inhibitors [MoA]
+- Tropomyosin Receptor Tyrosine Kinase A Inhibitors [MoA]
+- Tropomyosin Receptor Tyrosine Kinase B Inhibitors [MoA]
+- Tropomyosin Receptor Tyrosine Kinase C Inhibitors [MoA]
+- Tumor Necrosis Factor Receptor Blocking Activity [MoA]
+- Type I Interferon Receptor Antagonists [MoA]
+- Type II RAF Kinase Inhibitors [MoA]
+- Tyrosine Kinase 2 Inhibitors [MoA]
+- Tyrosine Kinase Inhibitors [MoA]
+- UDP Glucuronosyltransferases Inducers [MoA]
+- UGT1A1 Inducers [MoA]
+- UGT1A1 Inhibitors [MoA]
+- UGT1A9 Inhibitors [MoA]
+- UGT2B7 Inhibitors [MoA]
+- Ultrasound Contrast Activity [MoA]
+- Uncompetitive NMDA Receptor Antagonists [MoA]
+- Urease Inhibitors [MoA]
+- VEGFR2 Inhibitors [MoA]
+- Vascular Endothelial Growth Factor Inhibitors [MoA]
+- Vascular Endothelial Growth Factor-directed Antibody Interactions [MoA]
+- Vasopressin Receptor Agonists [MoA]
+- Vasopressin V2 Receptor Antagonists [MoA]
+- Vesicular Monoamine Transporter 2 Inhibitors [MoA]
+- X-Ray Contrast Activity [MoA]
+- Xanthine Oxidase Inhibitors [MoA]
+- Zaire Ebolavirus Glycoprotein-directed Antibody Interactions [MoA]
+- alpha Glucosidase Inhibitors [MoA]
+- beta Lactamase Inhibitors [MoA]
+- mTOR Inhibitors [MoA]
