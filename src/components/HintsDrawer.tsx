@@ -15,9 +15,13 @@ const HINT_LABELS: Record<string, string> = {
   marketing_status: 'Marketing Status',
   pharm_class_epc: 'Pharm Class (EPC)',
   pharm_class_moa: 'Pharm Class (MOA)',
+  class: 'Therapeutic Class',
+  indications: 'Indications',
 };
 
 const HINT_ORDER = [
+  'class',
+  'indications',
   'route',
   'dosage_form',
   'product_type',
